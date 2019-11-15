@@ -17,6 +17,7 @@ a{
     position: relative;
 }
 .container-left{
+    overflow: hidden;
     float: left;
 }
 .container-left a{
@@ -72,4 +73,108 @@ display: block;
 }
 .container-right li span{
     margin-right: 10px;
+}
+
+/* 第二部分 搜索框内容 */
+.search{
+height: 120px;
+width: 100%;
+background-color: rgb(51,51,51);
+}
+/* 版心 */
+.search-container{
+    height: 120px;
+    width: 1200px;
+ 
+    margin: 0 auto;
+}
+/* logo */
+.search-logo{
+    margin-top: 35px;
+    margin-left: -180px;
+}
+/* 搜索框 */
+.search-area{
+   margin-top:-48px ;
+   margin-left: 390px;
+    width: 648px;
+    height: 40px;
+    float: left;
+  
+    
+}
+/* 搜索城市 */
+.search-area-city{
+    float: left;
+}
+.search-area-city span{
+    
+    color: rgb(206,185,15);
+    font-size: 16px;
+    line-height: 40px;
+    background-image: url("../img/search-area-xsj.png");
+    background-repeat: no-repeat;
+   background-position: right center;
+   padding: 15px;
+}
+.search-area-box{
+width: 560px;
+height: 40px;
+border: 2px solid rgb(253,208,0);
+float: left;
+margin-left: 86px;
+margin-top: -41px;
+
+}
+.search-area-input{
+    float: right;
+    width: calc(430px - 52px);
+    height: 36px;
+    border: none;
+    background-color: transparent;
+    color: #deffff;
+    line-height: 36px;
+    margin-right: 172px;
+    margin-top: -40px
+}
+.search-area-input span {
+float: left;
+    margin-top: 42px;
+}
+
+.search-area-input input{
+    float: left ;
+    height:40px;
+    width:  380px;
+    border: none;
+    margin-top: -38px;
+    margin-left: 40px;
+    color: #fff;
+    background-color: #333;
+}
+
+.search-area-box button{
+    float: right;
+    width: 130px;
+    height: 40px;
+    background-color: #fdd000;
+    border:none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.search-hotline{
+    float: right;
+}
+.search-hotline img{
+    position: relative;
+    left: 160px;
+    bottom: 40px;
+    float: right;
+    margin-left:40px ;
+    margin-bottom: 30px;
+}
+.kefu{
+position: relative;
+left: 830px;
+bottom: 40px;
 }
