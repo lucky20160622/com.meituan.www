@@ -64,5 +64,23 @@ body{
 }
 .head-container-left img{
     float: left;
-    margin: ;
+    position: relative;
+    right: 280px;
+    top: 30px;
+}
+.head-container-input{
+    width: 650px;
+    height: 45px;
+    background-color: brown;
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+.head-container-text span{
+color: rgb(153,153,153);
+font-size: 17px;
+}
+.head-container-text button{
+ background-color: rgb(255,195,0);
+ border: ;
 }
