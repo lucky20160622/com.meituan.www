@@ -1,180 +1,218 @@
+/* body{
+   background-color:black;
+} */
+* {
+    box-sizing: border-box;
+}
+/* 顶部导航栏 */
 .topnav{
-    border-bottom:1px solid #222222;
-    background-color:#2b2b2b;
-    height:28px;
-    width: 100%
-    
+    width: 100%;
+    height: 30px;
+    background-color: #2b2b2b;
 }
-a{
-    color: white;
-
-}
+/* 版心 */
 .container{
-    width: 1200px;
+    height: 100%;
+ 
     margin: 0 auto;
-    height: 28px;
-    color: white;
-    position: relative;
+    width: 1200px;
+  
 }
-.container-left{
+/* 版心中左边文字 */
+.container-left-size a{
     overflow: hidden;
+    height: 30px;
     float: left;
-}
-.container-left a{
-    margin:0 10px;
     vertical-align: middle;
+    margin:0 5px;
+    line-height: 30px;
+    color: rgb(204,204,204);
 }
-.container-left a:hover{
-    color: #ff9d00;
+/* 版心中左边文字hover效果 */
+.container-left-size a:hover{
+    color: rgb(255,157,0);
 }
-.container-right a:hover{
-    color: #ff9d00;
-}
-
-.container-right {
+/* 版心中右边 */
+.container-right-size ul {
     float: right;
 }
-
-.container-right li{
+/* 版心中右边的文字 */
+.container-right-size li{
+    height: 30px;
+    position: relative;
     float: left;
-    margin: 0 10px;
-  line-height: 28px;
- 
+    margin-right:20px;
+    line-height: 30px;
+    vertical-align: middle;
 }
-.container-right li a  img{
+/* 版心中右边文字hover效果 */
+.container-right-size li a:hover{
+    color:rgb(255,157,0) ;
+}
+/* 版心中右边文字图片 */
+.container-right-size li img{
+margin-top:5px ;
+vertical-align: middle;
+}
+/* 版心中右边文字第三个文字hover效果 */
+.container-right-size li a :nth-last-child(-n+3):hover{
+    color: rgb(253,208,0);
+}
+/* 版心中右边文字下拉列表 */
+.container-right-size li ul  {
+   
+    float: none;
+    background-color: white;
+    width: 90px;
+    height: 145px;
+    text-align: center;
+    z-index: 2;
+}
+/* 版心中右边文字第三个中的下拉列表中文字 */
+.container-right-size li ul li {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+/* 版心中右边文字第三个中的下拉列表hover效果*/
+.container-right-size li ul li:hover{
+    background-color: rgb(253,208,0);
+}
+/* 版心中右边文字的图片 */
+.container-right-size ul li img {
+    margin-bottom:5px ;
+}
+/* 版心中右边文字的颜色 */
+.container-right-size ul li a{
+    color: rgb(204,204,204);
+}
+/* 版心中右边文字第三个背景色hover效果 */
+.col:hover{
+    background-color: white;
+    z-index: 2;
+}
+/* 版心中右边文字第三个背景文字hover效果 */
+.container-right-size ul li:nth-child(3) a:hover{
+    color: rgb(204,204,204);
+}
+/* 版心 */
+.container-right-size li ul li:hover{
+    color: white;
+}
+/*版心中下来列表隐藏 */
+.container-right-size li ul {
     display: none;
+}
+/*版心中下来列表显示*/
+ .container-right-size ul li:nth-child(3):hover ul {
+    display:block;
+} 
+
+.container-right-size ul .upxcx {
     position: absolute;
+    display: none;
     top: 20px;
-    right: 46px;
+    left: -68px;
 }
-
-.container-right li:last-child a img{
+ 
+.container-right-size ul li:nth-child(5) a:hover img{
+    display: block;
+}
+.container-right-size ul .upwx{
     position: absolute;
-    width: 120px;
-    height: 120px;
-    top: 26px;
-    right: -34px;
+    display: none;
+    top: 20px;
+    left: -60px;
 }
-
-.container-right li a:hover i{
-    
-    color: #fdd000;
-
+.container-right-size ul li:nth-child(7) a:hover img{
+    display: block;
 }
-.container-right li a:hover img{
+.container-right-size  ul .upphone{
+    position: absolute;
+    left: -45px;
+    top: 25px;
+    display: none;
+}
+.container-right-size ul .phonehover:hover img:nth-child(2){
 display: block;
-
 }
 
-.container-right li span img{
-    position: absolute;
-    right: 200px;
-    top: 6px;
-}
-.container-right li span{
-    margin-right: 10px;
-}
+/* 第二部分搜索栏 */
 
-/* 第二部分 搜索框内容 */
 .search{
-height: 120px;
-width: 100%;
-background-color: rgb(51,51,51);
+    width: 100%;
+    height: 120px;
+   background-color: #333333;
+   /* margin-top: 10px; */
+   /* border-top: 1px solid #333333; */
 }
 /* 版心 */
 .search-container{
-    height: 120px;
     width: 1200px;
- 
-    margin: 0 auto;
+    height: 100%;
+    
+    margin:0 auto;
+    /* position: relative; */
 }
-/* logo */
-.search-logo{
-    margin-top: 35px;
-    margin-left: -180px;
-}
-/* 搜索框 */
-.search-area{
-   margin-top:-48px ;
-   margin-left: 390px;
-    width: 648px;
-    height: 40px;
+.search .search-container-left img{
     float: left;
-  
+    margin-top: 36px;
+    margin-left: 5px;
+}
+.search-container-center span{
+font-size: 16px;
+color: rgb(253,208,0);
+float: left;
+margin-left: 130px;
+margin-top: 55px;
+}
+.search-container-center img{
+    position: absolute;
+    top: 92px;
+    margin-left:10px ;
     
 }
-/* 搜索城市 */
-.search-area-city{
+.search-container--input{
+    width: 560px;
+    height: 33px;
+    border: 2px solid rgb(253,208,0);
+    margin-top: 47px;
+    margin-left: 25px;
     float: left;
 }
-.search-area-city span{
+.search-container--input span{
+    color: rgb(204,204,204);
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    float: left;
+    font-size: 100%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.search-container--input input{
+    width: 370px;
+    height: 29px;
+    border: none;
+    float: left;
+    margin-left: 20px;
+   background-color: rgb(52,52,52);
+   color: white;
     
-    color: rgb(206,185,15);
-    font-size: 16px;
-    line-height: 40px;
-    background-image: url("../img/search-area-xsj.png");
-    background-repeat: no-repeat;
-   background-position: right center;
-   padding: 15px;
 }
-.search-area-box{
-width: 560px;
-height: 40px;
-border: 2px solid rgb(253,208,0);
-float: left;
-margin-left: 86px;
-margin-top: -41px;
-
-}
-.search-area-input{
+.search-container-button button{
     float: right;
-    width: calc(430px - 52px);
-    height: 36px;
+    width: 135px;
+    height: 33px;
+    background-color: rgb(253,208,0);
     border: none;
-    background-color: transparent;
-    color: #deffff;
-    line-height: 36px;
-    margin-right: 172px;
-    margin-top: -40px
+    margin-right: -3px;
+    margin-top: -2px;
+    font-size: 15px;
+    font-weight: 600;
 }
-.search-area-input span {
-float: left;
-    margin-top: 42px;
-}
-
-.search-area-input input{
-    float: left ;
-    height:40px;
-    width:  380px;
-    border: none;
-    margin-top: -38px;
-    margin-left: 40px;
-    color: #fff;
-    background-color: #333;
-}
-
-.search-area-box button{
+.search-container-right-img span{
     float: right;
-    width: 130px;
-    height: 40px;
-    background-color: #fdd000;
-    border:none;
-    font-size: 18px;
-    font-weight: 700;
-}
-.search-hotline{
-    float: right;
-}
-.search-hotline img{
-    position: relative;
-    left: 160px;
-    bottom: 40px;
-    float: right;
-    margin-left:40px ;
-    margin-bottom: 30px;
-}
-.kefu{
-position: relative;
-left: 830px;
-bottom: 40px;
 }
