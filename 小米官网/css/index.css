@@ -86,6 +86,7 @@
   color: rgb(51,51,51);
   margin: 0 10px;
 }
+/* 搜索框 */
 .searchnav-search{
   position: relative;
   float: right;
@@ -94,6 +95,7 @@
   border: 1px solid #cccccc;
   margin-top: calc((110px - 50px) / 2);
 }
+/* 输入框 */
 .searchnav-input input{
   float: left;
   width: 270px;
@@ -103,6 +105,7 @@
   box-sizing: border-box;
   padding: 8px;
 }
+/* 按钮 */
 .searchnav-search button{
   width: 55px;
   height: 50px;
@@ -112,11 +115,13 @@
   border: none;
   border-left: 1px solid #ccc;
 }
+/* 搜索关键词定位 */
 .searchnav-hotkeys{
   position: absolute;
   right: 57px;
   top: 18px;
 }
+/* 搜索关键词样式 */
 .searchnav-hotkeys span{
   color: rgb(117,117,117);
   background-color: rgb(238,238,238);
