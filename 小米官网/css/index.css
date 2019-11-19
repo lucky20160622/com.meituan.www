@@ -1,0 +1,126 @@
+/* 顶部导航栏 */
+.topnav {
+  background-color: #333333;
+  width: 100%;
+  height: 45px;
+}
+/* 左边文字 */
+.topnav-left {
+  float: left;
+}
+.topnav-left a {
+  float: left;
+}
+.topnav-left i {
+  float: left;
+}
+
+/* 右边文字 */
+.topnav-right {
+  float: right;
+}
+.topnav-right a {
+  float: left;
+}
+.topnav-right i {
+  float: left;
+}
+
+/* a与i的代码合并，减少冗余
+字体大小 垂直居中 字体颜色
+*/
+.topnav a {
+  color: rgb(176, 176, 176);
+  font-size: 13px;
+  line-height: 45px;
+}
+.topnav i {
+  float: left;
+  color: rgb(55, 60, 66);
+  margin: 0 8px;
+  line-height: 45px;
+}
+/* 文字hover效果 */
+.topnav a:hover {
+  color: white;
+}
+/* 购物车样式 */
+.topnav-right .cart {
+  margin-left: 24px;
+  width: 120px;
+  height: 100%;
+  background-color: #424242;
+  text-align: center;
+}
+/* 购物车hover效果 */
+.topnav-right .cart:hover {
+  color: #ff6700;
+  background-color: #ffffff;
+}
+
+/* 第二部分 搜索导航 */
+.searchnav{
+  height: 110px;
+}
+/* logo */
+.searchnav-logo{
+  float: left;
+  background-color: rgb(255,103,0);
+  width:55px;
+  height:55px;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: calc((110px - 55px ) / 2) ;
+}
+/* 中间文字的框子 */
+.searchnav-center{
+  float: left;
+  margin-left: 210px;
+  line-height: 110px;
+}
+/* 中间文字 */
+.searchnav-center a{
+  float: left;
+  font-size: 16px;
+  color: rgb(51,51,51);
+  margin: 0 10px;
+}
+.searchnav-search{
+  position: relative;
+  float: right;
+  width: 330px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  margin-top: calc((110px - 50px) / 2);
+}
+.searchnav-input input{
+  float: left;
+  width: 270px;
+  height: 50px;
+  border: none;
+  color: black;
+  box-sizing: border-box;
+  padding: 8px;
+}
+.searchnav-search button{
+  width: 55px;
+  height: 50px;
+  background-color: white;
+  margin-left: 5px;
+  box-sizing: border-box;
+  border: none;
+  border-left: 1px solid #ccc;
+}
+.searchnav-hotkeys{
+  position: absolute;
+  right: 57px;
+  top: 18px;
+}
+.searchnav-hotkeys span{
+  color: rgb(117,117,117);
+  background-color: rgb(238,238,238);
+  height: 18px;
+  width: 90px;
+  margin-right: 8px;
+}
