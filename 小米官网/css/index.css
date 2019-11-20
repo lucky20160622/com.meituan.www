@@ -4,6 +4,7 @@
   width: 100%;
   height: 45px;
 }
+
 /* 左边文字 */
 .topnav-left {
   float: left;
@@ -40,10 +41,12 @@
   margin: 0 8px;
   line-height: 45px;
 }
+
 /* 文字hover效果 */
 .topnav a:hover {
   color: white;
 }
+
 /* 购物车样式 */
 .topnav-right .cart {
   margin-left: 24px;
@@ -52,6 +55,7 @@
   background-color: #424242;
   text-align: center;
 }
+
 /* 购物车hover效果 */
 .topnav-right .cart:hover {
   color: #ff6700;
@@ -62,6 +66,7 @@
 .searchnav{
   height: 110px;
 }
+
 /* logo */
 .searchnav-logo{
   float: left;
@@ -73,12 +78,14 @@
   box-sizing: border-box;
   margin-top: calc((110px - 55px ) / 2) ;
 }
+
 /* 中间文字的框子 */
 .searchnav-center{
   float: left;
   margin-left: 210px;
   line-height: 110px;
 }
+
 /* 中间文字 */
 .searchnav-center a{
   float: left;
@@ -86,6 +93,7 @@
   color: rgb(51,51,51);
   margin: 0 10px;
 }
+
 /* 搜索框 */
 .searchnav-search{
   position: relative;
@@ -95,6 +103,7 @@
   border: 1px solid #cccccc;
   margin-top: calc((110px - 50px) / 2);
 }
+
 /* 输入框 */
 .searchnav-input input{
   float: left;
@@ -105,6 +114,7 @@
   box-sizing: border-box;
   padding: 8px;
 }
+
 /* 按钮 */
 .searchnav-search button{
   width: 55px;
@@ -115,12 +125,14 @@
   border: none;
   border-left: 1px solid #ccc;
 }
+
 /* 搜索关键词定位 */
 .searchnav-hotkeys{
   position: absolute;
   right: 57px;
   top: 18px;
 }
+
 /* 搜索关键词样式 */
 .searchnav-hotkeys span{
   color: rgb(117,117,117);
@@ -129,3 +141,50 @@
   width: 90px;
   margin-right: 8px;
 }
+
+/* 第三部分轮播图 */
+.carousel {
+  height: 460px;
+}
+/* .carousel-list{
+  position: absolute;
+} */
+.carousel-list a {
+  display: block;
+}
+
+.carousel-aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 234px;
+  height: 460px;
+  background-color: rgba(154, 153, 153,0.75);
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.carousel-aside a {
+  display: block;
+  padding-left: 28px;
+  padding-right: 24px;
+  width: 100%;
+  height: 42px;
+  box-sizing: border-box;
+  line-height: 42px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.carousel-aside a:hover {
+  background-color: #ff6700;
+}
+.carousel-aside i {
+  float: right;
+ }
+ .carousel-aside i img{
+   float: right;
+   padding-right: 10px;
+   box-sizing: border-box;
+ }

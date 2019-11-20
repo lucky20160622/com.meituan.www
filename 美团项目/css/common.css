@@ -12,3 +12,8 @@
 .clearfix {
   *zoom: 1;
 }
+
+.container{
+  width: 1190px;
+  margin: 0 auto;
+}

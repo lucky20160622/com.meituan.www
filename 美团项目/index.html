@@ -5,63 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> 美团网-美食-酒店-旅游-团购-电影-吃喝玩乐</title>
-
+    <title>美团网-美食-酒店-旅游-团购-电影-吃喝玩乐</title>
     <link rel="stylesheet" href="./lib/reset/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./fonts/iconfont.css">
-    <link rel="stylesheet" href="./fonts/搜索/iconfont.css">
 </head>
 
 <body>
     <!-- 顶部导航栏 -->
-    <div class="topnav clearfix">
+    <div class="topnav">
         <!-- 版心 -->
-        <div class="container ">
+        <div class="container clearfix">
             <!-- 左边文字 -->
-            <div class="container-left">
-                <span class="iconfont">&#xe61f;</span>
+            <div class="topnav-left">
+                <img src="./img/定位.png" alt="">
                 <span>宿迁</span>
                 <a href="#">切换城市</a>
-                <a href="#">[ <a href="#">沭阳</a> <a href="#">泗阳</a> <a href="#">新沂 ]</a>
-             <span>立即登陆</span>
-             <a href="#">注册</a>
+                <a href="#">
+                    <a href="#">[ 睢宁</a>
+                    <a href="#"> 泗阳</a>
+                    <a href="#"> 新沂 ]</a>
+                </a>
+
+                <!-- 立即登陆与注册 -->
+                <div class="topnav-left-size">
+                    <a href="#">立即登录</a>
+                    <a href="#">注册</a>
+                </div>
             </div>
             <!-- 右边文字 -->
-            <div class="container-right">
-                <ul>
-                    <li><a href="#">我的美团</a></li>
-                    <li><a href="#">手机APP</a></li>
-                    <li><a href="#">商家中心</a></li>
-                    <li><a href="#">美团规则</a></li>
-                    <li><a href="#">网站导航</a></li>
-                </ul>
+            <div class="topnav-right">
+                <a href="#">我的美团</a>
+                <a href="#">手机APP</a>
+                <a href="#">商家中心</a>
+                <a href="#">美团规则</a>
+                <a href="#">网站导航</a>
             </div>
         </div>
     </div>
-    <!-- 搜索框 -->
-    <div class="head">
+    <!-- 搜索导航 -->
+    <div class="searchnav">
         <!-- 版心 -->
-        <div class="head-container clearfix">
+        <div class="container clearfix">
             <!-- 左边logo -->
-            <div class="head-container-left"><img src="./img/美团logo.png" alt=""  height="46px" width="126px;"></div>
-            <!-- 中间的搜索框 -->
-            <div class="head-container-input clearfix" >
-                <!-- 输入框 -->
-                <div class="head-container-text">
-                    <span>搜索商家或地点</span>
-                    <input type="text">
-                </div>
-                <!-- 搜索按钮 -->
-                <button><span class="iconfont">&#xe615;</span></button>
+            <div class="searchnav-left">
+                <img src="./img/logo.png" alt="">
             </div>
-            <!-- 搜索框下方小字体 -->
-            <div class="head-container-size"></div>
-            <!-- 下方大文字 -->
-            <div class="head-container-weight"></div>
-        </div>
+            <!-- 搜索框 -->
+            <div class="searchnav-search">
+                <!-- 输入框 -->
+                <div class="searchnav-input">
+                        <!-- <span>搜索商家或地点</span> -->
+                    <input type="text" placeholder="搜索商家或地点">
+                   
+                </div>
+                <!-- 按钮 -->
+                <button><img src="./img/搜索.png" alt=""></button>
+            </div>
 
+            <!-- 热门搜索词 -->
+            <div class="searchnav-hotkeys">
+                <a href="#">横店电影城</a>
+                <a href="#">新一烤肉</a>
+                <a href="#">迪拜汤泉</a>
+                <a href="#">万达影城</a>
+                <a href="#">韩式汗蒸休闲馆</a>
+                <a href="#">东北酱骨头</a>
+               
+            </div>
+            <!-- 美团功能 -->
+            <div class="searchnav-bottom">
+                <a href="#">美团外卖</a>
+                <a href="#">猫眼电影</a>
+                <a href="#">美团酒店</a>
+                <a href="#">民宿 / 公寓</a>
+                <a href="#">商家入驻</a>
+                <a href="#">美团公益</a>
+            </div>
+
+        </div>
     </div>
 
 
