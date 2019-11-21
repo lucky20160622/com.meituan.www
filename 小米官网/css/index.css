@@ -143,48 +143,207 @@
 }
 
 /* 第三部分轮播图 */
-.carousel {
+.carsoule{
   height: 460px;
 }
-/* .carousel-list{
-  position: absolute;
-} */
-.carousel-list a {
+/* 轮播图列表 */
+.carsoule li a{
   display: block;
 }
-
-.carousel-aside {
+/* 左边栏 */
+.carsoule-aside{
   position: absolute;
   top: 0;
   left: 0;
-  width: 234px;
   height: 460px;
-  background-color: rgba(154, 153, 153,0.75);
-  padding: 20px 0;
+  width:234px;
+  background-color: rgba(154,153,153,0.75);
   box-sizing: border-box;
+  padding: 20px 0px;
 }
-
-.carousel-aside a {
+/* 左边栏文字 */
+.carsoule-aside a{
   display: block;
-  padding-left: 28px;
-  padding-right: 24px;
   width: 100%;
-  height: 42px;
-  box-sizing: border-box;
-  line-height: 42px;
-  font-size: 14px;
-  color: #fff;
+  color: rgb(255,255,255);
+  font-size: 15px;
+  height: 43px;
+ line-height: 43px;
+ box-sizing: border-box;
+ padding-left: 20px;
+}
+.carsoule-aside a i span{
+  float: right;
+  margin-right: 10px;
+}
+/* 文字hover效果 */
+.carsoule-aside a:hover{
+  background-color: rgb(255,103,0);
+}
+.product{
+  position: absolute;
+  top: 50%;
+  left: 232px;
   font-weight: 700;
 }
-
-.carousel-aside a:hover {
-  background-color: #ff6700;
+.products{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-weight: 700;
 }
-.carousel-aside i {
-  float: right;
+.products,
+.product:hover{
+  color: #fff;
+   background-color: rgba(0, 0, 0,0.75);
+}
+ /* 优惠活动 */
+ .discount {
+  margin-top: 14px;
+  margin-bottom: 26px;
  }
- .carousel-aside i img{
-   float: right;
-   padding-right: 10px;
-   box-sizing: border-box;
+
+
+ .discount-server {
+   float: left;
+   width: 234px;
+   height: 170px;
+   background-color: #5f5750;
  }
+
+ /* 原本 半透明 移入不透明 */
+ .discount-server a {
+   position: relative;
+   float: left;
+   width: 78px;
+   height: 85px;
+   text-align: center;
+   color: rgb(166,161,157);
+   opacity: 0.5;
+ }
+
+ .discount-server a:before {
+   content: '';
+   position: absolute;
+   top: 2px;
+   left: 9px;
+   width: 64px;
+   height: 1px;
+   background-color: #776d65;
+ }
+
+ .discount-server a:after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 3px;
+  width: 1px;
+  height: 70px;
+  background-color: #776d65;
+}
+
+ .discount-server a:hover {
+   opacity: 1;
+ }
+ .discount-server img {
+  margin-top: 22px;
+  margin-bottom: 8px;
+  width: 24px;
+}
+
+.discount-server span {
+  display: block;
+  color: #fff;
+}
+
+ .discount-server img {
+   margin-top: 22px;
+   margin-bottom: 8px;
+   width: 24px;
+ }
+ .discount-product img{
+   width:316px ;
+   height: 170px;
+   margin-left:12px ;
+ }
+ .flash{
+   height: 450px;
+   background-color: rgb(245,245,245);
+ }
+ .title{
+  
+   height: 65px;
+ }
+ .title h2{
+   float: left;
+   font-weight: 200;
+   color: #8e8e8e;
+   line-height: 65px;
+   font-size: 20px;
+ }
+ .title .title-right{
+ float: right;
+ margin-top: 15px;
+ border: 1px solid #ccc;
+ width: 70px;
+ height:25px ;
+ box-sizing: border-box;
+ text-align: center;
+ border-left: none;
+ }
+ .title .title-right a{
+   float: left;
+   border-left: 1px solid #ccc;
+   height: 25px;
+   width: 33px;}
+   .title .title-right a:hover{
+     color: rgb(255,103,0);
+   }
+.flash-content{
+  height: 345px;
+}
+.flash-seckill{
+  height: 345px;
+  width: 235px; 
+  background-color: rgb(241,237,237);
+  overflow: hidden;
+}
+.flash-content{
+  text-align: center;
+}
+.flash-seckill h3 {
+  color: rgb(239,58,59);
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.flash-seckill img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.flash-seckill-text{
+  color: rgb(111,109,109);
+  font-size: 15px;
+}
+.flash-seckill-time{
+  margin-top: 40px;
+}
+.flash-seckill-time span{
+  display: inline-block;
+  background-color:rgb(96,87,81);
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  width: 50px;
+ height: 50px;
+ text-align: center;
+ line-height: 50px;
+} 
+.flash-seckill-time small{
+ 
+  color: rgb(96,87,81);
+  font-size: 30px;
+ 
+}
