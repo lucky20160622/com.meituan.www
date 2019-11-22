@@ -1,349 +1,333 @@
-/* 顶部导航栏 */
-.topnav {
-  background-color: #333333;
-  width: 100%;
-  height: 45px;
+.topnav{
+background-color: #333333;
+    height: 40px;
+}
+.topnav-left{
+    float: left;
+}
+.topnav-left a{
+    float: left;
+}
+.topnav-right{
+    float: right;
+}
+.topnav-right a{
+    float: left
 }
 
-/* 左边文字 */
-.topnav-left {
-  float: left;
+.topnav-left i{
+    float: left;
+} 
+ .topnav-right i{
+    float: left;
 }
-.topnav-left a {
-  float: left;
+.topnav a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #b0b0b0;
 }
-.topnav-left i {
-  float: left;
+.topnav a:hover{
+    color: white;
 }
-
-/* 右边文字 */
-.topnav-right {
-  float: right;
-}
-.topnav-right a {
-  float: left;
-}
-.topnav-right i {
-  float: left;
+.topnav i{
+    color: rgb(59,66,59);
+    line-height: 40px;
+    margin:0 8px;
 }
 
-/* a与i的代码合并，减少冗余
-字体大小 垂直居中 字体颜色
-*/
-.topnav a {
-  color: rgb(176, 176, 176);
-  font-size: 13px;
-  line-height: 45px;
+.cart{
+margin-left: 25px;
+background-color: rgb(66,66,66);
+width:120px;
+height: 40px;
+text-align: center;
 }
-.topnav i {
-  float: left;
-  color: rgb(55, 60, 66);
-  margin: 0 8px;
-  line-height: 45px;
+.topnav-right .cart:hover{
+    background-color:white;
+    color: rgb(255,103,0);
 }
-
-/* 文字hover效果 */
-.topnav a:hover {
-  color: white;
-}
-
-/* 购物车样式 */
-.topnav-right .cart {
-  margin-left: 24px;
-  width: 120px;
-  height: 100%;
-  background-color: #424242;
-  text-align: center;
-}
-
-/* 购物车hover效果 */
-.topnav-right .cart:hover {
-  color: #ff6700;
-  background-color: #ffffff;
-}
-
-/* 第二部分 搜索导航 */
 .searchnav{
-  height: 110px;
+    height: 100px;
 }
-
-/* logo */
 .searchnav-logo{
-  float: left;
-  background-color: rgb(255,103,0);
-  width:55px;
-  height:55px;
-  line-height: 60px;
-  text-align: center;
-  box-sizing: border-box;
-  margin-top: calc((110px - 55px ) / 2) ;
+    float: left;
+    margin-top: 25px;
 }
-
-/* 中间文字的框子 */
+.searchnav-logo img{
+    float: left;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255,103,0);
+}
 .searchnav-center{
-  float: left;
-  margin-left: 210px;
-  line-height: 110px;
+    float: left;
+    margin-left: 185px;
+    margin-top:45px;
 }
-
-/* 中间文字 */
 .searchnav-center a{
-  float: left;
-  font-size: 16px;
-  color: rgb(51,51,51);
-  margin: 0 10px;
+   margin-right: 20px;
+    float: left;
+    font-size:15px ;
+    color: rgb(78,64,64);
 }
-
-/* 搜索框 */
+.searchnav-center a:hover{
+    color: rgb(255,103,0);
+}
 .searchnav-search{
-  position: relative;
-  float: right;
-  width: 330px;
-  height: 50px;
-  border: 1px solid #cccccc;
-  margin-top: calc((110px - 50px) / 2);
+    float: right;
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgb(192,192,192);
+    margin-top: 30px;
+    position: relative;
 }
-
-/* 输入框 */
+.searchnav-input{
+    float: right;
+}
 .searchnav-input input{
-  float: left;
-  width: 270px;
-  height: 50px;
-  border: none;
-  color: black;
-  box-sizing: border-box;
-  padding: 8px;
+    float: left;
+    width: 245px;
+    height: 50px;
+    border: none;
+    margin-right: 55px;
+    padding: 8px;
+    box-sizing: border-box;
 }
-
-/* 按钮 */
+.searchnav-input-size {
+position: absolute;
+left: 70px;
+top:15px;
+}
+.searchnav-input-size a{
+    display: inline-block;
+    background-color: rgb(238,238,238);
+    width: 80px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+}
+.searchnav-input-size a:nth-child(2){
+    margin-left:5px ;
+}
+.searchnav-input-size a:hover{
+    background-color: rgb(255,103,0);
+    color: white;
+}
 .searchnav-search button{
-  width: 55px;
-  height: 50px;
-  background-color: white;
-  margin-left: 5px;
-  box-sizing: border-box;
-  border: none;
-  border-left: 1px solid #ccc;
+    float: right;
+    width: 55px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin-top: -50px;
+    border-left: 1px solid rgb(192,192,192);
+    box-sizing: border-box;
 }
-
-/* 搜索关键词定位 */
-.searchnav-hotkeys{
-  position: absolute;
-  right: 57px;
-  top: 18px;
-}
-
-/* 搜索关键词样式 */
-.searchnav-hotkeys span{
-  color: rgb(117,117,117);
-  background-color: rgb(238,238,238);
-  height: 18px;
-  width: 90px;
-  margin-right: 8px;
-}
-
-/* 第三部分轮播图 */
-.carsoule{
-  height: 460px;
-}
-/* 轮播图列表 */
-.carsoule li a{
-  display: block;
-}
-/* 左边栏 */
+.carousel {
+    height: 460px;
+  }
 .carsoule-aside{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 460px;
-  width:234px;
-  background-color: rgba(154,153,153,0.75);
-  box-sizing: border-box;
-  padding: 20px 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 233px;
+    height: 460px;
+    background-color: rgb(63,73,78);
+    padding: 20px 0px;
+    box-sizing: border-box;
 }
-/* 左边栏文字 */
-.carsoule-aside a{
-  display: block;
-  width: 100%;
-  color: rgb(255,255,255);
-  font-size: 15px;
-  height: 43px;
- line-height: 43px;
- box-sizing: border-box;
- padding-left: 20px;
+.carsoule-aside a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 30px;
 }
-.carsoule-aside a i span{
-  float: right;
-  margin-right: 10px;
+.carsoule-aside i{
+    float: right;
+    margin-right: 20px;
 }
-/* 文字hover效果 */
-.carsoule-aside a:hover{
-  background-color: rgb(255,103,0);
+.carousel-left{
+    position: absolute;
+    top: 50%;
+    left: 234px;
+    margin-bottom: 35px;
+    color: rgb(194,202,210);
+    font-size: 40px;
 }
-.product{
-  position: absolute;
-  top: 50%;
-  left: 232px;
-  font-weight: 700;
-}
-.products{
-  position: absolute;
-  right: 0;
-  top: 50%;
-  font-weight: 700;
-}
-.products,
-.product:hover{
-  color: #fff;
-   background-color: rgba(0, 0, 0,0.75);
-}
- /* 优惠活动 */
- .discount {
-  margin-top: 14px;
-  margin-bottom: 26px;
- }
 
+.carousel-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: rgb(194,202,210);
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.yuan{
+    position: absolute;
+    bottom: 26px;
+    right:34px;
+}
+.dian{
+    float: left;
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 2px solid #b0b3b5;
+    background-color: #8d9195;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+.discount{
+    height: 170px;
+    margin-bottom: 25px;
+    width: 100%;
+    margin-top: 15px;
+}
+.discount-server{
+    float: left;
+    background-color: rgb(95,87,80);
+    height: 170px;
+    width: 235px;
+    display: inline-block;
+}
+.discount-server a{
+    color: rgb(204,202,199);
+    float: left;
+    position: relative;
+    width: 78px;
+    height: 87px;
+    text-align: center;
+}
+.discount-server img{
+    width: 24px;
+    height: 24px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
 
- .discount-server {
-   float: left;
-   width: 234px;
-   height: 170px;
-   background-color: #5f5750;
- }
-
- /* 原本 半透明 移入不透明 */
- .discount-server a {
-   position: relative;
-   float: left;
-   width: 78px;
-   height: 85px;
-   text-align: center;
-   color: rgb(166,161,157);
-   opacity: 0.5;
- }
-
- .discount-server a:before {
+.discount-server a:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 64px;
+    height: 1px;
+    background-color: #776d65;
+  }
+ 
+  .discount-server a:after {
    content: '';
    position: absolute;
-   top: 2px;
-   left: 9px;
-   width: 64px;
-   height: 1px;
+   top: 9px;
+   left: 3px;
+   width: 1px;
+   height: 70px;
    background-color: #776d65;
  }
-
- .discount-server a:after {
-  content: '';
-  position: absolute;
-  top: 9px;
-  left: 3px;
-  width: 1px;
-  height: 70px;
-  background-color: #776d65;
-}
-
- .discount-server a:hover {
-   opacity: 1;
- }
- .discount-server img {
-  margin-top: 22px;
-  margin-bottom: 8px;
-  width: 24px;
-}
-
-.discount-server span {
-  display: block;
-  color: #fff;
-}
-
- .discount-server img {
-   margin-top: 22px;
-   margin-bottom: 8px;
-   width: 24px;
- }
- .discount-product img{
-   width:316px ;
-   height: 170px;
-   margin-left:12px ;
- }
- .flash{
-   height: 450px;
-   background-color: rgb(245,245,245);
- }
- .title{
+ .discount-shop{
+   
+     float: left;
   
-   height: 65px;
  }
- .title h2{
-   float: left;
-   font-weight: 200;
-   color: #8e8e8e;
-   line-height: 65px;
-   font-size: 20px;
+ .discount-shop img{
+     float: left;
+     width: 315px;
+     height: 170px;
+     margin-left: 15px;
  }
- .title .title-right{
- float: right;
- margin-top: 15px;
- border: 1px solid #ccc;
- width: 70px;
- height:25px ;
- box-sizing: border-box;
- text-align: center;
- border-left: none;
+ .falsh{
+     height: 400px;
+     background-color: rgb(245,245,245);
  }
- .title .title-right a{
-   float: left;
-   border-left: 1px solid #ccc;
-   height: 25px;
-   width: 33px;}
-   .title .title-right a:hover{
-     color: rgb(255,103,0);
-   }
-.flash-content{
-  height: 345px;
+ .falsh-title{
+     height: 60px;
+ }
+ .falsh-title h2{
+     float: left;
+     color: rgb(51,51,51);
+     font-size: 20px;
+     font-weight: 200;
+     line-height: 60px;
+ }
+ .flash-title-button{
+     float: right;
+     border: 1px solid #ccc;
+     width:70px ;
+     height: 23px;
+   line-height: 22px;
+ }
+ .flash-title-button a{
+    float: left;
+    width: 34px;
+    text-align: center;
+    box-sizing: border-box;
+    border-left:1px solid #ccc ;
+    color: rgb(224,224,224)
+    
 }
-.flash-seckill{
-  height: 345px;
-  width: 235px; 
-  background-color: rgb(241,237,237);
-  overflow: hidden;
+
+.flash-title-button i{
+    width: 20px;
+    height: 20px;
+    color: #b0b2ba;
 }
-.flash-content{
-  text-align: center;
+
+.falsh-seckill{
+    float: left;
+    height: 340px;
+    width: 234px;
+    background-color: rgb(241,237,237);
+    text-align: center;
+    overflow: hidden;
 }
-.flash-seckill h3 {
-  color: rgb(239,58,59);
-  font-weight: normal;
-  font-size: 20px;
-  margin-top: 60px;
+.falsh-seckill h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(239,58,59);
+    margin-bottom: 35px;
+    margin-top: 60px;
+    box-sizing: border-box;
 }
-.flash-seckill img{
-  margin-top: 30px;
-  margin-bottom: 30px;
+.falsh-seckill img{
+    margin-bottom: 30px;
 }
-.flash-seckill-text{
-  color: rgb(111,109,109);
-  font-size: 15px;
+.falsh-seckill p{
+color: rgb(111,109,109);
+font-size: 15px;
+margin-bottom: 30px;
 }
-.flash-seckill-time{
-  margin-top: 40px;
+.falsh-seckill span{
+    display: inline-block;
+    background-color: rgb(96,87,81);
+    font-size: 30px;
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
 }
-.flash-seckill-time span{
-  display: inline-block;
-  background-color:rgb(96,87,81);
-  width: 45px;
-  height: 45px;
-  font-size: 30px;
-  text-align: center;
-  color: white;
-  width: 50px;
- height: 50px;
- text-align: center;
- line-height: 50px;
-} 
-.flash-seckill-time small{
- 
+.falsh-seckill small{
   color: rgb(96,87,81);
-  font-size: 30px;
- 
+    font-size: 15px;
+}
+.htoshop{
+    float: right;
+    width: calc(1226px - 234px)
+}
+.hotshop-product{
+text-align: center;
+    float: left;
+ width: 234px;
+ height: 340px;   
+ background-color: white;
+}
+.hotshop-product img{
+    width: 200px;
+}
+.hotshop-product h4{
+    font-size: 18px;
+    font-weight: 500;
+    
+    color: black;
+
 }
