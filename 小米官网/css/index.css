@@ -138,10 +138,16 @@ top:15px;
 }
 .carsoule-aside a {
     display: block;
+    width: 100%;
     color: white;
     font-size: 16px;
     line-height: 40px;
-    margin-left: 30px;
+    padding-left:20px ;
+    box-sizing: border-box;
+}
+.carsoule-aside a:hover{
+   
+    background-color: rgb(255,103,0);
 }
 .carsoule-aside i{
     float: right;
@@ -193,12 +199,17 @@ top:15px;
     display: inline-block;
 }
 .discount-server a{
-    color: rgb(204,202,199);
+    color: rgb(182,178,175);
     float: left;
     position: relative;
     width: 78px;
     height: 87px;
     text-align: center;
+    opacity: 0.7;
+}
+.discount-server a:hover{
+    opacity: 1;
+    color: white;
 }
 .discount-server img{
     width: 24px;
@@ -237,6 +248,9 @@ top:15px;
      height: 170px;
      margin-left: 15px;
  }
+ .big-box{
+    background-color: rgb(245,245,245);
+ }
  .falsh{
      height: 400px;
      background-color: rgb(245,245,245);
@@ -257,6 +271,7 @@ top:15px;
      width:70px ;
      height: 23px;
    line-height: 22px;
+   margin-top: 25px;
  }
  .flash-title-button a{
     float: left;
@@ -320,14 +335,93 @@ text-align: center;
  width: 234px;
  height: 340px;   
  background-color: white;
+ border-top:1px solid rgb(33,150,243) ;
+ box-sizing: border-box;
+ margin-left: 14px;
 }
 .hotshop-product img{
     width: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 .hotshop-product h4{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
-    
     color: black;
-
+    margin-bottom: 8px;
+}
+.hotshop-product p{
+    font-size: 15px;
+    color: rgb(178,178,178);
+    margin-bottom: 20px;
+    
+}
+.hotshop-product span{
+    color: rgb(250,101,9);
+    font-size: 18px;
+    margin-right: 3px;
+}
+.hotshop-product s{
+    font-size: 16px;
+    color: rgb(178,178,178);
+}
+.background-phone{
+    background-color: rgb(245,245,245);
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.background-phone img{
+    width: 100%;
+    height: 120px;
+}
+.phonenav-area{
+    height: 655px;
+}
+.phonenav-title{
+    height: 45px;
+    margin-bottom: 10px;
+}
+.phonenav-title span{
+    float: left;
+    font-size: 25px;
+    color: rgb(51,51,51);
+    font-weight: 200;
+    line-height: 45px;
+}
+.phonenav-title a{
+    float: right;
+    line-height: 45px;
+    font-size: 15px;
+}
+.phonenav-title a:nth-child(2){
+    width:13px;
+    height: 12px;
+    padding: 4px;
+    line-height: 11px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+    background-color:rgb(176,176,176) ;
+    color: white;
+}
+.phonenav-left{
+    position: relative;
+    float: left;
+}
+.phonenav-left img{
+    float: left;
+    width: 235px;
+    height: 600px;
+}
+.phonenav-left:hover{
+    top:-5px;
+    transition: all .4s;
+}
+.pohonenav-gather{
+    height: 600px;
+    background-color: tan;
+}
+.phonenav-gather{
+    width: 230px;
+    height: 300px;
 }
