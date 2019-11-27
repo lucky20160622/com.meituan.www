@@ -1,0 +1,204 @@
+/* 顶部导航栏 */
+.topnav {
+  height: 45px;
+  background-color: #0054a7;
+}
+/* 左边文字 */
+
+.topnav-left {
+  float: left;
+}
+.topnav-left a {
+  float: left;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 40px;
+}
+.topnav-left a:nth-child(2) {
+  margin-right: 40px;
+  background-color: #00366d;
+  width: 65px;
+  height: 45px;
+}
+/* 右边文字 */
+.topnav-right {
+  float: right;
+}
+.topnav-right a {
+  position: relative;
+  float: left;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.topnav-right a::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 45px;
+  left: -8px;
+  background-color: #266db4;
+}
+.topnav-right a:last-child:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 45px;
+  right: -11px;
+  background-color: #266db4;
+}
+.topnav-right img {
+  margin-top: 1px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+/* 第二部分 搜索导航 */
+.searchnav {
+  height: 165px;
+   
+  border-bottom: 3px solid #0054a7;
+}
+/* 左边logo */
+.searchnav-logo {
+  float: left;
+  margin-top: 30px;
+  /* margin-right: 175px; */
+}
+.searchnav-logo img {
+  float: left;
+}
+/* 搜索框 */
+.searchnav-search {
+  width: 460px;
+  height: 36px;
+  border: 2px solid #0054a7;
+  margin-top: 36px;
+  margin-left: 140px;
+  float: left;
+}
+.searchnav-search .searchnav-search-size {
+  float: left;
+  background-color: #f6f6f6;
+  margin-top: 1px;
+  width: 88px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+/* 输入框 */
+.searchnav-input input {
+  float: left;
+  width: 290px;
+  height: 35px;
+  border: none;
+  margin-top: 1px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/* 按钮 */
+.searchnav-search button {
+  float: left;
+  background-color: #0054a7;
+  width: 82px;
+  height: 36px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+.searchnav-bottom-size {
+  margin-top: 43px;
+}
+.searchnav-bottom-size a {
+  margin-right: 7px;
+  font-size: 12px;
+}
+/* 高级搜索 */
+.searchnav-height {
+  float: left;
+  margin-top: 37px;
+  margin-left: 5px;
+}
+.searchnav-height span {
+  float: left;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 3px;
+}
+/* 搜索框右上 */
+.searchnav-top-right {
+  float: left;
+  margin-left: 136px;
+  margin-top: 47px;
+  position: relative;
+}
+.searchnav-top-right span {
+  float: left;
+  color: black;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+.searchnav-top-right a {
+  float: left;
+  margin-left: 2px;
+  color: rgb(255, 148, 36);
+  font-size: 12px;
+}
+.searchnav-top-right h3 {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.searchnav-top-right img {
+  float: left;
+  margin-left: 100px;
+  margin-top: -27px;
+}
+
+/* 下半部中间 */
+.searchnav-bottom-center{
+  float: left;
+}
+.searchnav-bottom-center a {
+  float: left;
+  margin-left: 42px;
+  margin-top: 40px;
+  text-align: center;
+
+}
+.searchnav-bottom-center img{
+margin-bottom: 3px;
+}
+/* 下半部下边 */
+.searchnav-bottom-right{
+  float: right;
+  margin-top: 35px;
+}
+.searchnav-bottom-right-phone h3{
+color: rgb(31,179,224);
+font-size: 25px;
+}
+.searchnav-bottom-right-phone span{
+  font-size: 14px;
+  color: #ccc;
+}
+.searchnav-bottom-right-phone span:nth-child(2){
+  margin-right: 15px;
+}
+
+
+
+.tu img{
+  width: 150px;
+  height: 520px;
+  position: absolute;
+  top: 164px;
+  left: 172px;
+z-index: 2;
+}
