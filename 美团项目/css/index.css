@@ -30,8 +30,8 @@
 }
 /* 选中元素 */
 .topnav-left a:nth-child(3) {
-    margin-top: 13px;
-    margin-right: 5px;
+  margin-top: 13px;
+  margin-right: 5px;
   line-height: 1em;
   height: 1em;
   color: rgb(102, 102, 102);
@@ -53,45 +53,45 @@
   margin: 0 15px;
 }
 /* 整体a的hover效果 */
-.topnav a:hover{
-color: rgb(254,140,0);
+.topnav a:hover {
+  color: rgb(254, 140, 0);
 }
 /* 选中元素 */
-.topnav-left-size a:nth-child(1){
-color: rgb(254,140,0);
-margin-left: 30px;
+.topnav-left-size a:nth-child(1) {
+  color: rgb(254, 140, 0);
+  margin-left: 30px;
 }
 /* 第二部分 搜索导航 */
-.searchnav{
+.searchnav {
   height: 200px;
   background-color: white;
 }
 /* 搜索栏左边 */
-.searchnav-left{
+.searchnav-left {
   float: left;
 }
 /* 搜索栏左边图片 */
-.searchnav-left img{
+.searchnav-left img {
   float: left;
   width: 126px;
   height: 46px;
-  margin-top:35px;
+  margin-top: 35px;
 }
 /* 搜索框 */
-.searchnav-search{
+.searchnav-search {
   float: left;
   width: 550px;
   height: 40px;
-  border: 1px solid rgb(229,229,229);
+  border: 1px solid rgb(229, 229, 229);
   margin-top: 40px;
   margin-left: 195px;
 }
 /* 输入框左浮动 */
-.searchnav-input{
-  float: left;  
+.searchnav-input {
+  float: left;
 }
 /* 输入框 */
-.searchnav-input input{
+.searchnav-input input {
   float: left;
   width: 470px;
   height: 40px;
@@ -102,66 +102,267 @@ margin-left: 30px;
   color: black;
 }
 /* 输入框文字 */
-.searchnav-input ::placeholder{
-  color: rgb(153,153,153);
+.searchnav-input ::placeholder {
+  color: rgb(153, 153, 153);
 }
 /* 按钮 */
-.searchnav-search button{
+.searchnav-search button {
   float: right;
-  background-color: rgb(255,195,0);
+  background-color: rgb(255, 195, 0);
   border: none;
   width: 80px;
-  height: 40px
-  
- 
+  height: 40px;
+}
+
+/* 热门搜索词 */
+.searchnav-hotkeys {
+  float: left;
+  margin-left: 335px;
+  font-size: 13px;
+  margin-top: 10px;
 }
 /* 热门搜索词 */
-.searchnav-hotkeys{
- float: left;
- margin-left: 335px;
- font-size: 13px;
- margin-top: 10px;
-}
-/* 热门搜索词 */
-.searchnav-hotkeys a{
-margin-right: 10px;
-color: rgb(153,153,153);
+.searchnav-hotkeys a {
+  margin-right: 10px;
+  color: rgb(153, 153, 153);
 }
 /* 热门搜索词hover效果 */
-.searchnav-hotkeys a:hover{
-  color: rgb(254,140,0);
+.searchnav-hotkeys a:hover {
+  color: rgb(254, 140, 0);
 }
 /* 美团功能 */
-.searchnav-bottom{
+.searchnav-bottom {
   float: left;
- margin-left: 280px;
- margin-top: 60px;
- font-size: 18px;
+  margin-left: 280px;
+  margin-top: 60px;
+  font-size: 18px;
 }
 /* 美团功能文字 */
-.searchnav-bottom a{
+.searchnav-bottom a {
   float: left;
   font-weight: 700;
   margin-right: 32px;
- 
-
 }
 /* 美团功能hover效果 */
-.searchnav-bottom a:nth-child(1):hover{
-  color: rgb(251,199,82);
+.searchnav-bottom a:nth-child(1):hover {
+  color: rgb(251, 199, 82);
 }
-.searchnav-bottom a:nth-child(2):hover{
-  color: rgb(237,30,36);
+.searchnav-bottom a:nth-child(2):hover {
+  color: rgb(237, 30, 36);
 }
-.searchnav-bottom a:nth-child(3):hover{
-  color: rgb(237,30,36);
+.searchnav-bottom a:nth-child(3):hover {
+  color: rgb(237, 30, 36);
 }
-.searchnav-bottom a:nth-child(4):hover{
-  color: rgb(251,199,82);
+.searchnav-bottom a:nth-child(4):hover {
+  color: rgb(251, 199, 82);
 }
-.searchnav-bottom a:nth-child(5):hover{
-  color:rgb(254,140,0);
+.searchnav-bottom a:nth-child(5):hover {
+  color: rgb(254, 140, 0);
 }
-.searchnav-bottom a:nth-child(6):hover{
-  color: rgb(237,30,36);
+.searchnav-bottom a:nth-child(6):hover {
+  color: rgb(237, 30, 36);
+}
+/* 全部分类 */
+.searchnav-size {
+  float: left;
+}
+.searchnav-size span {
+  float: left;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+  left: 181px;
+  top: 208px;
+}
+/* 大盒子 */
+.big-box {
+  height: 2000px;
+  background-color: rgb(248, 248, 248);
+}
+/* 美团服务 */
+.serve {
+  height: 485px;
+}
+/* 左侧下拉列表 */
+.serve-select {
+  float: left;
+  width: 231px;
+  /* height: 590px; */
+  height: 475px;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin-top: -49px;
+}
+.serve-select dd:hover{
+background-color: rgb(255,247,235);
+font-weight: 700;
+color: black;
+}
+.serve-select img {
+  margin-left: -209px;
+  margin-top: 58px;
+}
+.serve-select dl {
+  float: left;
+  margin-left: 45px;
+  font-size: 13px;
+  margin-top: 52px;
+}
+.serve-select dd {
+  line-height: 26px;
+}
+.serve-select i {
+  float: right;
+  margin-left: 76px;
+}
+/* 中间背景图 */
+.serve-background img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* 右边 */
+.serve-right{
+  float: right;
+  width: 220px;
+  height: 100px;
+}
+/* 右上 */
+.serve-right-top{
+  float: left;
+  width: 220px;
+  height: 240px;
+  border: 1px solid #ccc;
+  margin-top: -421px;
+  text-align: center;
+  background-color: white;
+}
+/* 右下 */
+.serve-rigth-bottom{
+  height: 165px;
+  width: 220px;
+  border: 1px solid #Ccc;
+  float: left;
+  margin-top: -170px;
+  text-align: center;
+  background-color: white;
+}
+.serve-right-top img{
+  border-radius:50% ;
+  border: 4px solid #ccc;
+  width: 52px;
+  height: 52px;
+  margin-top: 35px;
+}
+.serve-right-top p{
+  font-size: 15px;
+ margin: 15px 0px;
+}
+.serve-right-top a{
+  border-radius: 17px;
+  width: 113px;
+  height: 20px;
+  margin-left: 51px;
+  line-height: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.serve-rigth-bottom img{
+  width: 28px;
+  height: 28px;
+  margin-top: 20px;
+  width: 90px;
+  height: 90px;
+}
+.serve-rigth-bottom p{
+  font-size: 16px;
+  margin-bottom:3px ;
+}
+.serve-rigth-bottom a{
+  margin-top: 5px;
+  color: #ec5300;
+  margin-bottom: 1px;
+}
+.serve-rigth-bottom a:nth-child(4){
+  color: black;
+}
+
+/* 第三部分美食推荐 */
+.food{
+  height: 678px;
+  background: white;
+
+}
+.food-title{
+  background-color: #c0ab83;
+  height: 45px;
+}
+.food-title a{
+  float: left;
+  color: white;
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 45px;
+}
+.food-title a:nth-child(1){
+  font-size: 16px;
+  margin-right: 5px;
+}
+.food-box{
+  border: 1px solid #ccc;
+}
+.food-cake{
+  float: left;
+  width: 390px;
+  height: 315px;
+  margin-left: 5px;
+  text-align: center;
+}
+.food-cake img{
+  width: 368px;
+  height: 208px;
+  margin-top:15px;
+}
+.food-cake h5{
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: 8px;
+}
+.food-cake p{
+  color: #ccc;
+  margin-bottom: 16px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 8px;
+}
+.food-cake  span{
+  margin-right: 3px;
+  color: rgb(221,180,77);
+  font-size: 16px;
+  text-align: left;
+ 
+}
+.food-cake  s{
+  color: #ccc;
+  text-align: left;
+  margin-right: 252px;
+}
+.yuandian{
+  position: relative;
+}
+.yuandian li{
+position: absolute;
+left: 0;
+top: 0px;
+float: left;
+width: 10px;
+height: 10px;
+border: 3px solid #ccc;
+background-color: rgb(237, 30, 36);
+border-radius: 5px;
 }
