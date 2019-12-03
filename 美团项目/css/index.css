@@ -176,7 +176,7 @@
 }
 /* 大盒子 */
 .big-box {
-  height: 2000px;
+  height: 4000px;
   background-color: rgb(248, 248, 248);
 }
 /* 美团服务 */
@@ -193,10 +193,10 @@
   background-color: white;
   margin-top: -49px;
 }
-.serve-select dd:hover{
-background-color: rgb(255,247,235);
-font-weight: 700;
-color: black;
+.serve-select dd:hover {
+  background-color: rgb(255, 247, 235);
+  font-weight: 700;
+  color: black;
 }
 .serve-select img {
   margin-left: -209px;
@@ -222,13 +222,13 @@ color: black;
 }
 
 /* 右边 */
-.serve-right{
+.serve-right {
   float: right;
   width: 220px;
   height: 100px;
 }
 /* 右上 */
-.serve-right-top{
+.serve-right-top {
   float: left;
   width: 220px;
   height: 240px;
@@ -238,27 +238,27 @@ color: black;
   background-color: white;
 }
 /* 右下 */
-.serve-rigth-bottom{
+.serve-rigth-bottom {
   height: 165px;
   width: 220px;
-  border: 1px solid #Ccc;
+  border: 1px solid #ccc;
   float: left;
   margin-top: -170px;
   text-align: center;
   background-color: white;
 }
-.serve-right-top img{
-  border-radius:50% ;
+.serve-right-top img {
+  border-radius: 50%;
   border: 4px solid #ccc;
   width: 52px;
   height: 52px;
   margin-top: 35px;
 }
-.serve-right-top p{
+.serve-right-top p {
   font-size: 15px;
- margin: 15px 0px;
+  margin: 15px 0px;
 }
-.serve-right-top a{
+.serve-right-top a {
   border-radius: 17px;
   width: 113px;
   height: 20px;
@@ -270,99 +270,521 @@ color: black;
   padding: 5px;
   margin-bottom: 5px;
 }
-.serve-rigth-bottom img{
+.serve-rigth-bottom img {
   width: 28px;
   height: 28px;
   margin-top: 20px;
   width: 90px;
   height: 90px;
 }
-.serve-rigth-bottom p{
+.serve-rigth-bottom p {
   font-size: 16px;
-  margin-bottom:3px ;
+  margin-bottom: 3px;
 }
-.serve-rigth-bottom a{
+.serve-rigth-bottom a {
   margin-top: 5px;
   color: #ec5300;
   margin-bottom: 1px;
 }
-.serve-rigth-bottom a:nth-child(4){
+.serve-rigth-bottom a:nth-child(4) {
   color: black;
 }
 
 /* 第三部分美食推荐 */
-.food{
+.food {
   height: 678px;
-  background: white;
-
 }
-.food-title{
+.food-title {
   background-color: #c0ab83;
   height: 45px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
-.food-title a{
+.food-title a {
   float: left;
   color: white;
   font-size: 14px;
   margin-left: 15px;
   line-height: 45px;
 }
-.food-title a:nth-child(1){
+.food-title a:nth-child(1) {
   font-size: 16px;
   margin-right: 5px;
 }
-.food-box{
+.food-box {
   border: 1px solid #ccc;
+  background-color: white;
 }
-.food-cake{
+.food-cake {
   float: left;
   width: 390px;
   height: 315px;
   margin-left: 5px;
   text-align: center;
 }
-.food-cake img{
+.food-cake img {
   width: 368px;
   height: 208px;
-  margin-top:15px;
+  margin-top: 15px;
 }
-.food-cake h5{
+.food-cake h5 {
   font-size: 16px;
   font-weight: normal;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: left;
   margin-left: 8px;
+  margin-top: 12px;
 }
-.food-cake p{
+.food-cake p {
   color: #ccc;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   font-size: 12px;
   text-align: left;
   margin-left: 8px;
 }
-.food-cake  span{
+.food-cake span {
   margin-right: 3px;
-  color: rgb(221,180,77);
+  color: rgb(221, 180, 77);
   font-size: 16px;
   text-align: left;
- 
 }
-.food-cake  s{
+.food-cake s {
   color: #ccc;
   text-align: left;
   margin-right: 252px;
 }
-.yuandian{
+.yuandian {
   position: relative;
 }
-.yuandian li{
-position: absolute;
-left: 0;
-top: 0px;
-float: left;
-width: 10px;
-height: 10px;
-border: 3px solid #ccc;
-background-color: rgb(237, 30, 36);
-border-radius: 5px;
+.yuandian li {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #ccc;
+  background-color: rgb(237, 30, 36);
+  border-radius: 5px;
 }
+/* 电影导航 */
+.movie {
+  height: 380px;
+  margin-top: 45px;
+  width: 100%;
+}
+/* 标题栏 */
+.movie-title {
+  background-color: #fb3e62;
+  height: 45px;
+  color: white;
+  line-height: 45px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.movie-title span {
+  float: left;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.movie-title a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  margin-left: 10px;
+}
+.movie-title a:nth-child(4) {
+  float: right;
+  font-size: 14px;
+}
+.movie-title i {
+  font-size: 14px;
+  margin-left: 1px;
+  margin-right: 10px;
+}
+/* 图片栏 */
+.movie-box {
+  height: 333px;
+  width: 1188px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.movie-size {
+  width: 214px;
+  height: 340px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url("../img/俩只老虎.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+.movie-size span {
+  display: inline-block;
+  color: white;
+  margin-top: 245px;
+  margin-bottom: 5px;
+}
+.movie-size span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.movie-size span:nth-child(2) {
+  color: rgb(254, 140, 0);
+  font-size: 13px;
+}
+.movie-size b {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.movie-size p {
+  background-color: rgb(255, 73, 73);
+  margin-left: 150px;
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 25px;
+}
+
+.movie-size1 {
+  width: 214px;
+  height: 340px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url("../img/冰雪奇缘.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+.movie-size1 span {
+  display: inline-block;
+  color: white;
+  margin-top: 245px;
+  margin-bottom: 5px;
+  position: relative;
+  right: 71px;
+}
+.movie-size1 span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.movie-size1 span:nth-child(3) {
+  color: rgb(254, 140, 0);
+  font-size: 13px;
+}
+.movie-size1 b {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.movie-size1 p {
+  background-color: rgb(255, 73, 73);
+  margin-left: 150px;
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 25px;
+}
+
+.movie-size2 {
+  width: 214px;
+  height: 340px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url("../img/利刃出鞘.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+.movie-size2 span {
+  display: inline-block;
+  color: white;
+  margin-top: 245px;
+  margin-bottom: 5px;
+}
+.movie-size2 span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.movie-size2 span:nth-child(2) {
+  color: rgb(254, 140, 0);
+  font-size: 13px;
+}
+.movie-size2 b {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.movie-size2 p {
+  background-color: rgb(255, 73, 73);
+  margin-left: 150px;
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 25px;
+}
+
+.movie-size3 {
+  width: 214px;
+  height: 340px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url("../img/勇者的游戏.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+.movie-size3 span {
+  display: inline-block;
+  color: white;
+  margin-top: 245px;
+  margin-bottom: 5px;
+  position: relative;
+  right: 71px;
+}
+.movie-size3 span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+  margin-left: -70px;
+}
+.movie-size3 span:nth-child(3) {
+  color: rgb(254, 140, 0);
+  font-size: 13px;
+}
+.movie-size3 b {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.movie-size3 p {
+  background-color: rgb(255, 73, 73);
+  margin-left: 150px;
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 25px;
+}
+
+.movie-size4 {
+  width: 214px;
+  height: 340px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url("../img/一生有你.png");
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+.movie-size4 span {
+  display: inline-block;
+  color: white;
+  margin-top: 245px;
+  margin-bottom: 5px;
+}
+.movie-size4 span:nth-child(1) {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.movie-size4 span:nth-child(2) {
+  color: rgb(254, 140, 0);
+  font-size: 13px;
+}
+.movie-size4 b {
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.movie-size4 p {
+  background-color: rgb(255, 73, 73);
+  margin-left: 150px;
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 25px;
+}
+.movie-size1 img {
+  margin-bottom: 200px;
+}
+.movie-size3 img {
+  margin-bottom: 200px;
+}
+
+/* 推荐民宿 */
+.homestay {
+  height: 733px;
+  margin-top: 45px;
+}
+.homestay-box {
+  height: 670px;
+  width: 1188px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.homestay-title {
+  height: 45px;
+  background-color: #f2c047;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.homestay-title a {
+  float: left;
+  color: white;
+  font-size: 14px;
+  line-height: 45px;
+  margin-left: 15px;
+}
+.homestay-title a:nth-child(1) {
+  font-size: 16px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.homestay-title a:nth-child(12) {
+  float: right;
+  color: white;
+  font-size: 14px;
+  line-height: 45px;
+  margin-right: 10px;
+}
+.homestay-title i {
+  margin-left: 5px;
+}
+.homestay-img {
+  float: left;
+  width: 370px;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.homestay-img img {
+  width: 370px;
+}
+.homestay-img img:nth-child(2) {
+  position: relative;
+  right: 80px;
+  top: -30px;
+  width: 52px;
+  /* right: -78px; */
+  left: 296px;
+  height: 52px;
+  border: 3px solid #fff;
+  border-radius: 26px;
+}
+.homestay-img h3 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: -48px;
+  margin-bottom: 15px;
+}
+.homestay-img p {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+.homestay-img span {
+  font-size: 22px;
+  color: rgb(255, 102, 0);
+}
+/* 猜你喜欢 */
+.like{
+  height: 800px;
+}
+/* 标题 */
+.like-title{
+  height: 45px;
+  background-color: rgb(77,182,213);
+  line-height: 45px;
+  margin-top: 25px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.like-title span{
+  float: left;
+  font-size: 18px;
+  color: white;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+.like-title p{
+  color: white;
+  font-size: 16px;
+}
+/* 内容 */
+.like-box{
+  height: 765px;
+  width: 1188px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.like-content img{
+  width:214px;
+  height: 120px;
+}
+.like-content img:nth-child(3){
+  width: 90px;
+  height: 15px;
+  /* margin-left: 20px; */
+}
+.like-content{
+  height: 230px;
+  width: 213px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 20px;
+}
+
+.like-content h5{
+  font-weight: normal;
+  font-size: 16px;
+  margin-left: 20px;
+  margin: 10px 0;
+}
+.like-content p{
+  color: #ccc;
+  font-size: 12px;
+  margin: 5px 0px;
+  /* margin-left: 20px; */
+}
+.like-content span{
+  color: rgb(255,102,0);
+  font-size: 22px;
+  margin-top: 10px;
+  
+}
+.like-content span:nth-child(7){
+  font-size: 12px;
+margin-left: 5px;
+}
+.like-content span:nth-child(5){
+  font-size: 12px;
+  /* margin-left: 20px; */
+}
+/* 城市导航 */
