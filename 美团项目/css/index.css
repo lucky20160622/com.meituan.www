@@ -37,6 +37,17 @@
   color: rgb(102, 102, 102);
   border: 1px solid rgb(229, 229, 229);
 }
+.topnav-left-rifht{
+  float: left;
+}
+.topnav-left-rifht a{
+  float: left;
+  border:none;
+}
+.topnav-left-rifht a:nth-child(3){
+  border: none;
+  color: rgb(153,153,153);
+}
 /* 左浮动 */
 .topnav-left-size {
   float: left;
@@ -172,7 +183,7 @@
   font-size: 18px;
   position: absolute;
   left: 181px;
-  top: 208px;
+  top: 211px;
 }
 /* 大盒子 */
 .big-box {
@@ -216,7 +227,7 @@
   margin-left: 76px;
 }
 /* 中间背景图 */
-.serve-background img {
+.serve-advertising img {
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -269,6 +280,10 @@
   padding: 5px;
   padding: 5px;
   margin-bottom: 5px;
+}
+.serve-right-top a:hover{
+  background-color: #f6f6f6;
+transition: 0.5s;
 }
 .serve-rigth-bottom img {
   width: 28px;
@@ -417,7 +432,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/俩只老虎.png");
+  background-image: url("../img/two-tiger.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -460,7 +475,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/冰雪奇缘.png");
+  background-image: url("../img/Frozen.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -505,7 +520,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/利刃出鞘.png");
+  background-image: url("../img/knives-out.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -548,7 +563,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/勇者的游戏.png");
+  background-image: url("../img/brave-game.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -594,7 +609,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/一生有你.png");
+  background-image: url("../img/life\ with\ you.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
