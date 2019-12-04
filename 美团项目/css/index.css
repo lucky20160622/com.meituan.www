@@ -176,7 +176,7 @@
 }
 /* 大盒子 */
 .big-box {
-  height: 4000px;
+  height: 4200px;
   background-color: rgb(248, 248, 248);
 }
 /* 美团服务 */
@@ -715,7 +715,7 @@
 }
 /* 猜你喜欢 */
 .like{
-  height: 800px;
+  height: 888px;
 }
 /* 标题 */
 .like-title{
@@ -788,3 +788,231 @@ margin-left: 5px;
   /* margin-left: 20px; */
 }
 /* 城市导航 */
+.citynav{
+  height: 270px;
+}
+.citynav-box{
+  height: 270px;
+  background-color: white;
+  border: 1px solid rgb(231,231,231);
+}
+/* 标题 */
+.citynav-title{
+  float: left;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+}
+.citynav-title span{
+  font-size: 16px;
+  float: left;
+  margin-left: 25px;
+
+}
+/* 左边 */
+.citynav-left{
+  width: 100px;
+  height: 220px;
+  float: left;
+}
+.citynav-left dl{
+  margin-left: 25px;
+  float: left;
+}
+.citynav-left dd{
+  float: left;
+  font-size: 14px;
+  margin-top: 60px;
+}
+.citynav-left dd:nth-child(1){
+  margin-top: 10px;
+}
+/* 右边 */
+.citynav-right{
+  height: 220px;
+  width: 1080px;
+}
+
+.citynav-right dl dd{
+ width: 95px;
+  float: left;
+  line-height: 30px;
+}
+.citynav-right dl dd:hover{
+  color: rgb(254,140,0);
+}
+.citynav-right dl:nth-child(2){
+  position: relative;
+  top: 15px;
+}
+.citynav-right dl:nth-child(3){
+  position: relative;
+  top: 32px;
+}
+.citynav-right dl::after{
+  content: '';
+  display: block;
+  width: 1100px;
+  height: 1px;
+  position: relative;
+  top: 111px;
+  left: 89px;
+  background-color: #ccc;
+}
+.citynav-right dl:nth-child(2):after{
+  content: '';
+  display: block;
+  width: 1100px;
+  height: 1px;
+  position: relative;
+  top: 171px;
+  left: 89px;
+  background-color: #ccc;
+}
+.citynav-right dl:nth-child(3):after{
+  content: '';
+  display: block;
+  width: 1100px;
+  height: 0px;
+  position: relative;
+  top: 230px;
+  left: 89px;
+  background-color: #ccc;
+}
+/* 美团服务 */
+.meituan-server{
+  height: 575px;
+}
+.meituan-server-content{
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding:40px 45px ;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.meituan-server-content dt{
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.meituan-server-content dd a{
+  color:#666;
+  line-height: 25px;
+}
+.meituan-server-content dd a:hover{
+  color: rgb(254,140,0);
+}
+.meituan-server-content dl:nth-child(2){
+  margin-top: 230px;
+  margin-left: -61px;
+}
+.meituan-server-content dl:nth-child(3){
+  margin-left: 140px;
+}
+.meituan-server-content dl:nth-child(4){
+  margin-left: 100px;
+}
+.meituan-server-content dl:nth-child(5){
+  margin-top: 230px;
+    margin-left: -133px;
+}
+.meituan-server-content dl:nth-child(6){
+    margin-left: 100px;
+}
+.meituan-server-content dl:nth-child(7){
+  margin-top: 75px;
+  margin-left: -70px;
+}
+.meituan-server-content dl:nth-child(8){
+  margin-top: 255px;
+  margin-left: -130px;
+}
+.meituan-server-content dl:nth-child(8){
+  margin-left: -130px;
+}
+.meituan-server-content dl:nth-child(9){
+  margin-left: 108px;
+}
+.meituan-server-content dl:nth-child(10){
+  margin-left: 894px;
+  margin-top: -315px;
+}
+.meituan-server-content dl:nth-child(11){
+  margin-left: 894px;
+  margin-top: -192px;
+}
+.meituan-server-content dl:nth-child(12){
+  margin-left: 894px;
+  margin-top: -95px;
+}
+.meituan-server-content dl:nth-child(13){
+  margin-left: 894px;
+  margin-top: -35px;
+}
+.meituan-server-content dl:nth-last-child(2) a:hover{
+  color: rgb(255, 102, 0);
+}
+.meituan-server-content dl:nth-last-child(1) a:hover{
+  color: rgb(255, 102, 0);
+}
+.meituan-server-content dl{
+  float: left;
+}
+.meituan-about{
+  height: 75px;
+}
+
+.meituan-about-left {
+  float: left;
+}
+
+.meituan-about-left span{
+float: left;
+display: block;
+font-size: 12px;
+color: rgb(153,153,153);
+margin-right: 20px;
+margin-top: 5px;
+}
+.meituan-about a{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgb(153,153,153);
+  margin-right: 20px;
+}
+.meituan-about a:hover{
+  color: rgb(254,140,0);
+}
+.meituan-about-right {
+  float: right;
+  width: 577px;
+  height: 68px;
+  margin-top: 10px;
+}
+.meituan-about-right a{
+  font-size: 12px;
+  color: rgb(153,153,153);
+}
+.meituan-about-right .zhizhao{
+  margin-top: -48px;
+  position: relative;
+  bottom: 14px;
+  left: 18px;
+}
+.meituan-about-right  img:nth-child(2){
+  float: left;
+  width: 38px;
+  position: relative;
+  left: 15px;
+}
+
+.meituan-about-right .tupian2 {
+margin-left: -21px;
+}
+
+.meituan-about-right a:first-child {
+  display: block;
+  text-align: right;
+}
