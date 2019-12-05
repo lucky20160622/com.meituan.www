@@ -9,8 +9,6 @@
 }
 .cat-eyes-left img {
   float: left;
-  width: 133px;
-  height: 45px;
   line-height: 80px;
   margin-top: 20px;
   margin-right: 15px;
@@ -29,10 +27,10 @@
 }
 /* 中间文字 */
 .cat-eyes-center {
-    float: left;
+  float: left;
 }
 .cat-eyes-center a {
-    float: left;
+  float: left;
   text-align: center;
   height: 80px;
   line-height: 80px;
@@ -40,198 +38,280 @@
   font-size: 18px;
   color: #333;
 }
-.cat-eyes-center a:nth-child(1){
-    background-color: rgb(239,66,56);
+.cat-eyes-center a:nth-child(1) {
+  background-color: rgb(239, 66, 56);
 }
 /* 右边 */
 .cat-eyes-right {
-    float: left;
-    width: 110px;
-    margin-left: 50px;
+  float: left;
+  width: 110px;
+  margin-left: 50px;
 }
-.cat-eyes-right a{
-    float: left;
-    height: 81px;
-    text-align: center;
-    font-size: 16px;
-    color: #333;
-    line-height: 81px;
-    
+.cat-eyes-right a {
+  float: left;
+  height: 81px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  line-height: 81px;
 }
 
-.cat-eyes-right a img:nth-child(1){
-    vertical-align: middle;
-    margin-top: -7px;
+.cat-eyes-right a img:nth-child(1) {
+  vertical-align: middle;
+  margin-top: -7px;
 }
-.cat-eyes-right a img:nth-child(3){
-    height: 10px;
-    margin-left: 2px;
-    margin-bottom: 3px;
+.cat-eyes-right a img:nth-child(3) {
+  height: 10px;
+  margin-left: 2px;
+  margin-bottom: 3px;
 }
 /* 搜索框 */
-.cat-eyes-search{
-float: left;
+.cat-eyes-search {
+  float: left;
 }
-.cat-eyes-search{
-    float: left;
-    border: 1px solid #ccc;
-    width: 226px;
-    height: 40px;
-    background-color: #f8f8f8;
-    margin-top: 20px;
-    margin-left: 30px;
-    border-radius: 25px;
+.cat-eyes-search {
+  float: left;
+  border: 1px solid #ccc;
+  width: 226px;
+  height: 40px;
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 25px;
 }
-.cat-eyes-search input{
-    float: left;
-    width: 170px;
-    height: 40px;
-    margin-left: 15px;
-    border: none;
-    font-size: 14px;
-    background-color: #faf8fa;
-    border-radius: 25px;
-    color: #333;
-    padding: 8px;
-    box-sizing: border-box;
+.cat-eyes-search input {
+  float: left;
+  width: 170px;
+  height: 40px;
+  margin-left: 15px;
+  border: none;
+  font-size: 14px;
+  background-color: #faf8fa;
+  border-radius: 25px;
+  color: #333;
+  padding: 8px;
+  box-sizing: border-box;
 }
-.cat-eyes-search img{
-    border-radius: 20px;
-    width: 41px;
-    height: 41px;
-    float: left;
-    background-color: rgb(239,66,56);
+.cat-eyes-search img {
+  border-radius: 20px;
+  width: 41px;
+  height: 41px;
+  float: left;
+  background-color: rgb(239, 66, 56);
 }
 /* 最右头像 */
-.cat-eyes-right-peoplehead{
-float: right;
+.cat-eyes-right-peoplehead {
+  float: right;
 }
-.cat-eyes-right-peoplehead img{
-    float: left;
-    margin-top: 20px;
+.cat-eyes-right-peoplehead img {
+  float: left;
+  margin-top: 20px;
 }
-.cat-eyes-right-peoplehead img:nth-child(1){
-    width: 40px;
-    height: 40px;
+.cat-eyes-right-peoplehead img:nth-child(1) {
+  width: 40px;
+  height: 40px;
 }
-.cat-eyes-right-peoplehead img:nth-child(2){
-    margin-top: 35px;
-    margin-left: 5px;
+.cat-eyes-right-peoplehead img:nth-child(2) {
+  margin-top: 35px;
+  margin-left: 5px;
 }
 /* 第二部分正在热映 */
-.ishit-content{
-    width: 750px;
-    height: 622px;
-    margin: 65px 0px 0px;
+.ishit-content {
+  float: left;
+  width: 750px;
+  height: 622px;
+  margin: 65px 0px 0px;
 }
 /* 标题 */
-.ishit-title{
-    height: 50px;
-    width: 750px;
-    line-height: 50px;
+.ishit-title {
+  float: left;
+  height: 50px;
+  width: 750px;
+  line-height: 50px;
 }
-.ishit-title span{
-    float: left;
-    font-size: 25px;
-    color: rgb(239,66,56);
+.ishit-title span {
+  float: left;
+  margin-left: 19px;
+  font-size: 25px;
+  color: rgb(239, 66, 56);
 }
-.ishit-title a{
-    float: right;
-    font-size: 14px;
-    color: rgb(239,66,56);
+.ishit-title span:nth-child(2){
+    margin-left: 0;
 }
-.ishit-title img{
-    float: right;
-    margin-top: 17px;
-    margin-left: 5px;
+.ishit-title a {
+  float: right;
+  font-size: 14px;
+  color: rgb(239, 66, 56);
+}
+.ishit-title img {
+  float: right;
+  margin-top: 17px;
+  margin-left: 5px;
 }
 /* 下部分 */
-.ishit-bottom{
-    float: left;
+.ishit-bottom {
+  float: left;
 }
-.ishit-bottom a{
-    position: relative;
-    float: left;
-    width: 160px;
-    height: 260px;
-    background-image: url("../img/two-tiger.png");
-    background-size: 160px;
-    background-repeat: no-repeat;
-    margin-left: 22px;
-    margin-top: 25px;
+.ishit-bottom a {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 260px;
+  background-image: url("../img/two-tiger.png");
+  background-size: 160px;
+  background-repeat: no-repeat;
+  margin-left: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-.ishit-bottom a:hover{
-    box-shadow: 0 2px 14px rgba(0,0,0,0.1);
+/* 重复背景图代码 */
+.ishit-bottom a:hover {
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
 }
-
-.ishit-bottom a:nth-child(2){
-    background-image: url("../img/brave-game.png");
+.ishit-bottom a:nth-child(2) {
+  background-image: url("../img/brave-game.png");
 }
-.ishit-bottom a:nth-child(3){
-    background-image: url("../img/north.png");
+.ishit-bottom a:nth-child(3) {
+  background-image: url("../img/north.png");
 }
-.ishit-bottom a:nth-child(4){
-    background-image: url("../img/knives-out.png");
+.ishit-bottom a:nth-child(4) {
+  background-image: url("../img/knives-out.png");
 }
-.ishit-bottom a:nth-child(5){
-    background-image: url("../img/Frozen.png");
+.ishit-bottom a:nth-child(5) {
+  background-image: url("../img/Frozen.png");
 }
-.ishit-bottom a:nth-child(6){
-    background-image: url("../img/people.png");
+.ishit-bottom a:nth-child(6) {
+  background-image: url("../img/people.png");
 }
-.ishit-bottom a:nth-child(7){
-    background-image: url("../img/xingjitansuo.png");
+.ishit-bottom a:nth-child(7) {
+  background-image: url("../img/xingjitansuo.png");
 }
-.ishit-bottom a:nth-child(8){
-    background-image: url("../img/life\ with\ you.png");
+.ishit-bottom a:nth-child(8) {
+  background-image: url("../img/life\ with\ you.png");
 }
-.ishit-bottom span{
-    float: left;
-    color: rgb(255,180,0);
-    font-size: 18px;
-    margin-left: 115px;
-    position: absolute;
-    top: 195px;
-    left:3px;
+.ishit-bottom span {
+  float: left;
+  color: rgb(255, 180, 0);
+  font-size: 18px;
+  margin-left: 115px;
+  position: absolute;
+  top: 196px;
+  left: 3px;
 }
-.ishit-bottom a span:nth-child(2){
-    font-size: 14px;
-    margin-left: 0;
-    position: absolute;
-    top: 200px;
-    left: 133px;
+.ishit-bottom a span:nth-child(2) {
+  font-size: 14px;
+  margin-left: 0;
+  position: absolute;
+  top: 200px;
+  left: 133px;
 }
-.ishit-bottom h5{
-    font-weight: normal;
-    font-size: 16px;
-    color: white;
-    position: absolute;
-    top: 195px;
-    left: 0px;
-    width: 160px;
-    height: 25px;
-    line-height: 25px;
-    background-color: rgba(0,0,0,0.3);
-}
-.ishit-bottom a:nth-last-child(-n+3) h5 {
-    background-color: rgba(0,0,0,0);
-}
-.ishit-bottom b{
-    position: absolute;
-    top: 222px;
-    display: block;
-    border-top: none;
-    width: 158px;
-    height: 37px;
-    border: 1px solid rgb(239,239,239);
-    text-align: center;
-    line-height: 37px;
-    color: rgb(239,66,56);
-    font-size: 16px;
-    font-weight: normal;
-    border-top: none;
-}
-.ishit-bottom b:hover{
-  background-color: rgb(239,66,56);
+.ishit-bottom h5 {
+  font-weight: normal;
+  font-size: 16px;
   color: white;
+  position: absolute;
+  top: 195px;
+  left: 0px;
+  width: 160px;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.ishit-bottom a:nth-last-child(-n + 3) h5 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.ishit-bottom b {
+  position: absolute;
+  top: 222px;
+  display: block;
+  border-top: none;
+  width: 158px;
+  height: 37px;
+  border: 1px solid rgb(239, 239, 239);
+  text-align: center;
+  line-height: 37px;
+  color: rgb(239, 66, 56);
+  font-size: 16px;
+  font-weight: normal;
+  border-top: none;
+}
+.ishit-bottom b:hover {
+  background-color: rgb(239, 66, 56);
+  color: white;
+}
+/* 第三部分今日票房 */
+.todya{
+    width: 360px;
+    height: 464px;
+ 
+}
+/* 标题 */
+.today-title {
+    float: left;
+    height: 50px;
+    width: 360px;
+    line-height: 50px;
+    margin-top: 62px;
+    margin-left: 55px;
+  }
+  .today-title span {
+    float: left;
+    margin-left: 19px;
+    font-size: 25px;
+    color: rgb(239, 66, 56);
+  }
+  /* 内容 */
+  .today-content{
+      float: left;
+      height: 635px;
+      width: 360px;
+      margin-left: 77px;
+  }
+  /* 第一行 */
+.today-content-one{
+    float: left;
+    width: 360px;
+    height: 80px;
+    border: 1px solid rgb(239,239,239);
+   margin-left: 75px;
+   
+}
+.today-content-one img{
+    float: left;
+}
+.today-content-one span{
+    float: left;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+.today-content-one span:nth-child(4){
+    color: rgb(239, 66, 56);
+    font-size: 14px;
+    margin-left: -70px;
+    margin-top: 38px;
+}
+/* 内容 */
+.today-content .today-content-size{
+    width: 360px;
+    height: 35px;
+    line-height: 20px;
+    display: block;
+}
+.today-content .today-content-size h5{
+    float: left;
+    font-weight: normal;
+    color: rgb(239, 66, 56);
+    font-size: 20px;
+    margin-right: 20px;
+}
+.today-content .today-content-size span{
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.today-content .today-content-size p{
+    float: right;
+    color: rgb(239, 66, 56);
+    font-size: 14px;
 }
