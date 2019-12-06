@@ -135,8 +135,8 @@
   font-size: 25px;
   color: rgb(239, 66, 56);
 }
-.ishit-title span:nth-child(2){
-    margin-left: 0;
+.ishit-title span:nth-child(2) {
+  margin-left: 0;
 }
 .ishit-title a {
   float: right;
@@ -240,78 +240,305 @@
   color: white;
 }
 /* 第三部分今日票房 */
-.todya{
-    width: 360px;
-    height: 464px;
- 
+.todya {
+  width: 360px;
+  height: 464px;
 }
 /* 标题 */
 .today-title {
-    float: left;
-    height: 50px;
-    width: 360px;
-    line-height: 50px;
-    margin-top: 62px;
-    margin-left: 55px;
-  }
-  .today-title span {
-    float: left;
-    margin-left: 19px;
-    font-size: 25px;
-    color: rgb(239, 66, 56);
-  }
-  /* 内容 */
-  .today-content{
-      float: left;
-      height: 635px;
-      width: 360px;
-      margin-left: 77px;
-  }
-  /* 第一行 */
-.today-content-one{
-    float: left;
-    width: 360px;
-    height: 80px;
-    border: 1px solid rgb(239,239,239);
-   margin-left: 75px;
-   
+  float: left;
+  height: 50px;
+  width: 360px;
+  line-height: 50px;
+  margin-top: 62px;
+  margin-left: 55px;
 }
-.today-content-one img{
-    float: left;
-}
-.today-content-one span{
-    float: left;
-    font-size: 18px;
-    margin-top: 17px;
-    margin-left: 15px;
-}
-.today-content-one span:nth-child(4){
-    color: rgb(239, 66, 56);
-    font-size: 14px;
-    margin-left: -70px;
-    margin-top: 38px;
+.today-title span {
+  float: left;
+  margin-left: 19px;
+  font-size: 25px;
+  color: rgb(239, 66, 56);
 }
 /* 内容 */
-.today-content .today-content-size{
-    width: 360px;
-    height: 35px;
-    line-height: 20px;
-    display: block;
+.today-content {
+  float: left;
+  height: 450px;
+  width: 360px;
+  margin-left: 77px;
 }
-.today-content .today-content-size h5{
-    float: left;
-    font-weight: normal;
-    color: rgb(239, 66, 56);
-    font-size: 20px;
-    margin-right: 20px;
+/* 第一行 */
+.today-content-one {
+  float: left;
+  width: 360px;
+  height: 80px;
+  border: 1px solid rgb(239, 239, 239);
+  margin-left: 75px;
+  margin-top: 22px;
+  margin-bottom: 20px;
 }
-.today-content .today-content-size span{
-    float: left;
-    color: #333;
-    font-size: 14px;
+.today-content-one img {
+  float: left;
 }
-.today-content .today-content-size p{
-    float: right;
-    color: rgb(239, 66, 56);
-    font-size: 14px;
+.today-content-one span {
+  float: left;
+  font-size: 18px;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.today-content-one span:nth-child(4) {
+  color: rgb(239, 66, 56);
+  font-size: 14px;
+  margin-left: -70px;
+  margin-top: 38px;
+}
+/* 内容 */
+.today-content .today-content-size {
+  width: 360px;
+  height: 35px;
+  line-height: 20px;
+  display: block;
+  margin-top: 1px;
+}
+.today-content .today-content-size h5 {
+  float: left;
+  font-weight: normal;
+  color: rgb(239, 66, 56);
+  font-size: 20px;
+  margin-right: 20px;
+}
+.today-content .today-content-size span {
+  float: left;
+  color: #333;
+  font-size: 14px;
+}
+.today-content .today-content-size p {
+  float: right;
+  color: rgb(239, 66, 56);
+  font-size: 14px;
+}
+
+.today-content a:nth-last-child(1) h5 {
+  margin-right: 10px;
+}
+/* 今日大盘 */
+.today-market {
+  float: left;
+  width: 360px;
+  height: 108px;
+  border: 1px solid rgb(239, 239, 239);
+  margin-top: 16px;
+}
+/* 左边 */
+.today-market-left {
+  float: left;
+}
+.today-market-left h3 {
+  float: left;
+  width: 20px;
+  height: 88px;
+  padding: 10px;
+  color: #fff;
+  background-color: #ef4238;
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+}
+/* 右边上部分 */
+.today-market-right-top {
+  float: left;
+  width: 290px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.today-market-right-top span {
+  float: left;
+  color: rgb(239, 66, 56);
+  font-size: 30px;
+  font-weight: 600;
+}
+.today-market-right-top span:nth-child(2) {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 13px;
+  margin-left: 3px;
+}
+.today-market-right-top a {
+  width: 80px;
+  height: 40px;
+  float: left;
+  color: rgb(239, 66, 56);
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/* 右边下部分 */
+.today-market-right-bottom {
+  float: left;
+  widows: 289px;
+  height: 30px;
+  margin-top: 5px;
+}
+.today-market-right-bottom span {
+  float: left;
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  margin-left: 20px;
+}
+.today-market-right-bottom span:nth-child(2) {
+  float: right;
+  color: rgb(153, 153, 153);
+  margin-left: 18px;
+}
+
+/* 即将上映 */
+.coming-soon-content {
+  float: left;
+  width: 750px;
+  height: 765px;
+  margin: 62px 0px 0px;
+}
+/* 标题 */
+.coming-soon-title {
+  float: left;
+  height: 50px;
+  width: 750px;
+  line-height: 50px;
+}
+.coming-soon-title span {
+  float: left;
+  margin-left: 19px;
+  font-size: 25px;
+  color: rgb(45, 152, 243);
+}
+.coming-soon-title span:nth-child(2) {
+  margin-left: 0;
+}
+.coming-soon-title a {
+  float: right;
+  font-size: 14px;
+  color: rgb(45, 152, 243);
+}
+.coming-soon-title img {
+  float: right;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+/* 下部分 */
+.coming-soon-bottom {
+  float: left;
+}
+.coming-soon-bottom a {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 260px;
+  background-image: url("../img/ruonenghenigongchenghailang.png");
+  background-size: 160px;
+  background-repeat: no-repeat;
+  margin-left: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(243,243,243);
+  margin-bottom: 75px;
+}
+.coming-soon-bottom a,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+.coming-soon-bottom a h5 {
+  position: absolute;
+  left: 0px;
+  left: -9px;
+  width: 159px;
+  height: 51px;
+  top: 192px;
+  float: left;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 10px;
+  background-image: url(../img/yinying.png);
+  background-size: 53px;
+}
+.coming-soon-bottom a h4 {
+  position: absolute;
+  top: 220px;
+  width: 150px;
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #ffb400;
+  background-color: #fbfbfb;
+  text-align: left;
+  padding-left: 10px;
+  border-bottom:none ;
+}
+.coming-soon-bottom-box {
+  position: absolute;
+  top: 260px;
+  width: 160px;
+  height: 39px;
+  float: left;
+  text-align: center;
+}
+.coming-soon-bottom-box h3,
+h2 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid rgb(243,243,243);
+  border-top: none;
+  vertical-align: top;
+  color: #999;
+  font-size: 14px;
+  margin-top: 0px;
+  line-height: 40px;
+  height: 100%;
+}
+.coming-soon-bottom-box h2 {
+  border-left: none;
+  color: rgb(63, 161, 244);
+}
+.coming-soon-bottom-box h3{
+  border-right: dashed rgb(243,243,243);
+}
+.coming-soon-bottom a span {
+  position: absolute;
+  top: 300px;
+  left: 35px;
+  border: none;
+  color: #999;
+  font-size: 14px;
+  line-height: 40px;
+}
+/* 背景图重复代码 */
+.coming-soon-bottom a:nth-child(2){
+  background-image: url("../img/lanxindajuyuan.png");
+}
+.coming-soon-bottom a:nth-child(3){
+  background-image: url("../img/laoban.png");
+}
+.coming-soon-bottom a:nth-child(4){
+  background-image: url("../img/nashifneghua.png");
+}
+.coming-soon-bottom a:nth-child(5){
+  background-image: url("../img/tianhuo.png");
+}
+.coming-soon-bottom a:nth-child(6){
+  background-image: url("../img/xiheliange.png");
+}
+.coming-soon-bottom a:nth-child(7){
+  background-image: url("../img/kake.png");
+}
+.coming-soon-bottom a:nth-child(8){
+  background-image: url("../img/beishiguangzhuazouderen.png");
 }
