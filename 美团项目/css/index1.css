@@ -778,7 +778,7 @@ h2 {
 .top {
   float: left;
   width: 360px;
-  height: 464px;
+  height: 555px;
   margin-left: 75px;
 }
 /* 标题 */
@@ -863,4 +863,93 @@ h2 {
 
 .top-content-size .ten {
   margin-right: 10px;
+}
+
+/* 关于猫眼 */
+.maoyan-foot{
+  float: left;
+  width: 100%;
+  height: 370px;
+  background-color: rgb(38,36,38);
+  margin-top: 100px;
+  text-align: center;
+}
+/* 标题 */
+.maoyan-foot-title{
+  float: left;
+  width: 345px;
+  margin-left: 255px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 60px;
+}
+.maoyan-foot-title:nth-child(2){
+  margin-left: 0px;
+}
+.maoyan-foot-title span,i{
+  float: left;
+  color: rgb(204,204,204);
+  font-size: 14px;
+}
+.maoyan-foot-title i{
+  float: left;
+  margin: 0px 12px;
+}
+.maoyan-foot-title a{
+  float: left;
+  color: rgb(239, 66, 56);
+  font-size: 14px;
+}
+.maoyan-foot-content{
+  float: left;
+  margin-left: 255px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+}
+.maoyan-foot-content span{
+  float: left;
+  color: rgb(204,204,204);
+  font-size: 14px;
+  text-align: center;
+
+}
+.maoyan-foot-content i{
+  margin: 0 12px;
+}
+.maoyan-foot-content a{
+  float: left;
+  color: rgb(204,204,204);
+  font-size: 14px;
+  text-align: center;  
+}
+.maoyan-foot-content span:nth-child(1){
+  margin-left: 25px;
+}
+.maoyan-foot-content span:nth-child(3){
+  margin-left: 38px;
+}
+.maoyan-foot-content a:nth-child(5){
+  margin-left: -22px;
+}
+.maoyan-foot-content a:nth-child(12){
+  margin-left: 140px;
+}
+.maoyan-foot-content a:nth-last-child(8){
+  margin-left: 210px;
+}
+.maoyan-foot-content span:nth-last-child(6){
+ margin-left: 225px;
+}
+.maoyan-foot-content span:nth-last-child(4){
+  margin-left: 215px; 
+}
+.maoyan-foot-content img{
+  float: left;
+  margin-left: 175px;
+  margin-top: 25px;
+}
+.maoyan-foot-content img:nth-last-child(1){
+  margin-left: 15px;
 }
