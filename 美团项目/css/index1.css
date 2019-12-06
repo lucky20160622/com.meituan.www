@@ -295,9 +295,12 @@
 .today-content .today-content-size {
   width: 360px;
   height: 35px;
-  line-height: 20px;
+  line-height: 35px;
   display: block;
   margin-top: 1px;
+}
+.today-content .today-content-size:hover {
+  background-color: rgb(243, 243, 243);
 }
 .today-content .today-content-size h5 {
   float: left;
@@ -317,7 +320,7 @@
   font-size: 14px;
 }
 
-.today-content a:nth-last-child(1) h5 {
+.today-content a .ten {
   margin-right: 10px;
 }
 /* 今日大盘 */
@@ -440,8 +443,11 @@
   margin-left: 22px;
   margin-top: 20px;
   margin-bottom: 10px;
-  border: 1px solid rgb(243,243,243);
+  border: 1px solid rgb(243, 243, 243);
   margin-bottom: 75px;
+}
+.coming-soon-bottom a:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .coming-soon-bottom a,
 h2,
@@ -480,7 +486,7 @@ h5 {
   background-color: #fbfbfb;
   text-align: left;
   padding-left: 10px;
-  border-bottom:none ;
+  border-bottom: none;
 }
 .coming-soon-bottom-box {
   position: absolute;
@@ -495,7 +501,7 @@ h2 {
   float: left;
   width: 50%;
   box-sizing: border-box;
-  border: 1px solid rgb(243,243,243);
+  border: 1px solid rgb(243, 243, 243);
   border-top: none;
   vertical-align: top;
   color: #999;
@@ -508,8 +514,8 @@ h2 {
   border-left: none;
   color: rgb(63, 161, 244);
 }
-.coming-soon-bottom-box h3{
-  border-right: dashed rgb(243,243,243);
+.coming-soon-bottom-box h3 {
+  border-right: dashed rgb(243, 243, 243);
 }
 .coming-soon-bottom a span {
   position: absolute;
@@ -521,24 +527,340 @@ h2 {
   line-height: 40px;
 }
 /* 背景图重复代码 */
-.coming-soon-bottom a:nth-child(2){
+.coming-soon-bottom a:nth-child(2) {
   background-image: url("../img/lanxindajuyuan.png");
 }
-.coming-soon-bottom a:nth-child(3){
+.coming-soon-bottom a:nth-child(3) {
   background-image: url("../img/laoban.png");
 }
-.coming-soon-bottom a:nth-child(4){
+.coming-soon-bottom a:nth-child(4) {
   background-image: url("../img/nashifneghua.png");
 }
-.coming-soon-bottom a:nth-child(5){
+.coming-soon-bottom a:nth-child(5) {
   background-image: url("../img/tianhuo.png");
 }
-.coming-soon-bottom a:nth-child(6){
+.coming-soon-bottom a:nth-child(6) {
   background-image: url("../img/xiheliange.png");
 }
-.coming-soon-bottom a:nth-child(7){
+.coming-soon-bottom a:nth-child(7) {
   background-image: url("../img/kake.png");
 }
-.coming-soon-bottom a:nth-child(8){
+.coming-soon-bottom a:nth-child(8) {
   background-image: url("../img/beishiguangzhuazouderen.png");
+}
+
+/* 最受期待 */
+.have-the-call {
+  float: left;
+  width: 360px;
+  height: 812px;
+  margin-left: 75px;
+}
+/* 标题 */
+.have-the-call-title {
+  float: left;
+  height: 50px;
+  width: 360px;
+  line-height: 50px;
+  margin-top: 62px;
+}
+.have-the-call-title span {
+  float: left;
+  font-size: 25px;
+  color: rgb(255, 180, 0);
+}
+.have-the-call-title a {
+  float: right;
+  font-size: 14px;
+  color: rgb(255, 180, 0);
+}
+.have-the-call-title img {
+  float: right;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+/* 第一行 */
+.have-the-call-one {
+  float: left;
+  width: 360px;
+  height: 194px;
+  border: 1px solid rgb(243, 243, 243);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.have-the-call-one:hover {
+  background-color: rgb(247, 247, 247);
+}
+.have-the-call-one img {
+  float: left;
+}
+.have-the-call-one-box {
+  float: left;
+  margin-left: 10px;
+}
+.have-the-call-one h5 {
+  color: #333;
+  line-height: 1.4;
+  font-size: 18px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.have-the-call-one p {
+  color: rgb(169, 169, 169);
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.have-the-call-one span {
+  color: rgb(254, 193, 48);
+  margin-left: 5px;
+  font-size: 14px;
+}
+/* 第二行 */
+.have-the-call-one-box1 {
+  float: left;
+  width: 172px;
+  height: 185px;
+  border: 1px solid rgb(243, 243, 243);
+  margin-bottom: 20px;
+}
+.have-the-call-one-box1:hover {
+  background-color: rgb(247, 247, 247);
+}
+.have-the-call-one-box1:nth-child(4) {
+  margin-left: 12px;
+}
+.have-the-call-one-box1 h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0px 10px 10px;
+}
+.have-the-call-one-box1 span {
+  color: rgb(254, 193, 48);
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+/* 内容 */
+.have-the-call-content .have-the-call-content-size {
+  float: left;
+  width: 360px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  margin-top: 1px;
+}
+.have-the-call-content .have-the-call-content-size:hover {
+  background-color: rgb(243, 243, 243);
+}
+.have-the-call-content .have-the-call-content-size h5 {
+  float: left;
+  font-weight: normal;
+  color: rgb(253, 184, 99);
+  font-size: 20px;
+  margin-right: 20px;
+}
+.have-the-call-content .have-the-call-content-size span {
+  float: left;
+  color: #333;
+  font-size: 14px;
+}
+.have-the-call-content .have-the-call-content-size p {
+  float: right;
+  color: rgb(253, 184, 99);
+  font-size: 14px;
+}
+
+.have-the-call-content a .ten {
+  margin-right: 10px;
+}
+
+/* 正在热播 */
+/* 内容 */
+.now-movie-content {
+  float: left;
+  width: 750px;
+  height: 540px;
+  margin: 62px 0px 0px;
+}
+/* 标题 */
+.now-movie-title {
+  float: left;
+  height: 50px;
+  width: 750px;
+  line-height: 50px;
+  margin-left: 22px;
+  margin-bottom: 15px;
+}
+.now-movie-title span {
+  float: left;
+  font-size: 25px;
+  color: rgb(239, 66, 56);
+}
+.now-movie-title img {
+  float: right;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+.now-movie-title a {
+  float: left;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.now-movie-title a:nth-child(8) {
+  float: right;
+  font-size: 14px;
+  color: rgb(239, 66, 56);
+}
+/* 内容 */
+.now-movie-content-bottom {
+  float: left;
+}
+.now-movie-content-bottom a {
+  position: relative;
+  float: left;
+  width: 160px;
+  height: 220px;
+  background-image: url("../img/tangrenjie.png");
+  margin-left: 26px;
+  margin-bottom: 30px;
+}
+.now-movie-content-bottom a:nth-child(1) {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 220px;
+  background-image: url("../img/tangrenjie.png");
+}
+.now-movie-content-bottom a span {
+  position: absolute;
+  top: 190px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.now-movie-content-bottom a h5 {
+  position: absolute;
+  top: 190px;
+  right: 10px;
+  color: rgb(232, 170, 25);
+  font-size: 18px;
+}
+/*重复代码 */
+.now-movie-content-bottom a:nth-child(2) {
+  background-image: url("../img/ligui.png");
+}
+.now-movie-content-bottom a:nth-child(3) {
+  background-image: url("../img/xiyouji.png");
+}
+.now-movie-content-bottom a:nth-child(4) {
+  background-image: url("../img/zhanlang.png");
+}
+.now-movie-content-bottom a:nth-child(5) {
+  background-image: url("../img/xialuo.png");
+}
+.now-movie-content-bottom a:nth-child(6) {
+  background-image: url("../img/bairiliehuo.png");
+}
+.now-movie-content-bottom a:nth-child(7) {
+  background-image: url("../img/jinqiandiguo.png");
+}
+
+/* TOP100 */
+.top {
+  float: left;
+  width: 360px;
+  height: 464px;
+  margin-left: 75px;
+}
+/* 标题 */
+.top-title {
+  float: left;
+  height: 50px;
+  width: 360px;
+  line-height: 50px;
+  margin-top: 62px;
+}
+.top-title span {
+  float: left;
+  font-size: 25px;
+  color: rgb(255, 180, 0);
+}
+.top-title a {
+  float: right;
+  font-size: 14px;
+  color: rgb(255, 180, 0);
+}
+.top-title img {
+  float: right;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+/* 第一行 */
+.top-one {
+  float: left;
+  width: 360px;
+  height: 80px;
+  border: 1px solid rgb(239, 239, 239);
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+.top-one img {
+  float: left;
+}
+.top-one span {
+  float: left;
+  font-size: 18px;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+.top-one span:nth-child(4) {
+  color: rgb(254, 193, 48);
+  font-size: 14px;
+  margin-left: -70px;
+  margin-top: 38px;
+}
+
+
+/* 内容 */
+.top-content .top-content-size {
+  float: left;
+  width: 360px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  margin-top: 1px;
+  font-size: 14px;
+}
+.top-content .top-content-size:hover {
+  background-color: rgb(243, 243, 243);
+}
+.top-content .top-content-size h5 {
+  float: left;
+  font-weight: normal;
+  color: rgb(253, 184, 99);
+  font-size: 20px;
+  margin-right: 20px;
+}
+.top-content .top-content-sizespan {
+  float: left;
+  color: #333;
+  font-size: 14px;
+}
+.top-content .top-content-size p {
+  float: right;
+  color: rgb(253, 184, 99);
+  font-size: 14px;
+}
+
+.top-content-size .ten {
+  margin-right: 10px;
 }
