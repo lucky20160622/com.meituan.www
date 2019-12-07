@@ -727,6 +727,9 @@ h2 {
   margin-left: 26px;
   margin-bottom: 30px;
 }
+.now-movie-content-bottom a:hover{
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
 .now-movie-content-bottom a:nth-child(1) {
   position: relative;
   float: left;
