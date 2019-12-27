@@ -115,6 +115,10 @@
   margin-top: 35px;
   margin-left: 5px;
 }
+/* 背景 */
+.moive-beijing{
+  padding: 0px 55px;
+}
 /* 第二部分正在热映 */
 .ishit-content {
   float: left;
