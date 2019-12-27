@@ -111,91 +111,152 @@
   background-color: rgb(255, 189, 39);
 }
 /* 服务介绍标题 */
-.service-title{
-    margin-top: 190px;
-    text-align: center;
-    width: 390px;
-    height: 127px;
-    margin-left: 308px;
+.service-title {
+  margin-top: 190px;
+  text-align: center;
+  width: 390px;
+  height: 127px;
+  margin-left: 308px;
 }
-.service-title img{
-    width: 390px;
-    height: 127px;
+.service-title img {
+  width: 390px;
+  height: 127px;
 }
 /* 服务介绍左边 */
-.service-left{
-    width: 551px;
-    height: 390px;
-    margin-top: 100px;
+.service-left {
+  width: 551px;
+  height: 390px;
+  margin-top: 100px;
 }
-.service-left-title{
-    width: 400px;
-    height: 40px;
-    font-size: 40px;
-    color: black;
-    margin-bottom: 80px;
+.service-left-title {
+  width: 400px;
+  height: 40px;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 80px;
 }
-.service-left img{
-    width:40px ;
-    margin-right: 40px;
-    height: 40px;
-    vertical-align: middle;
-    color: rgb(255,187,35);
+.service-left img {
+  width: 40px;
+  margin-right: 40px;
+  height: 40px;
+  vertical-align: middle;
+  color: rgb(255, 187, 35);
 }
-.service-left a{
-    font-size: 25px;
-    margin-bottom: 75px;
+.service-left a {
+  font-size: 25px;
+  margin-bottom: 75px;
 }
-.service-left p{
-    font-size: 14px;
-    margin-left: 80px;
-    color: rgb(219,215,204);
-    margin-bottom: 45px;
+.service-left p {
+  font-size: 14px;
+  margin-left: 80px;
+  color: rgb(219, 215, 204);
+  margin-bottom: 45px;
 }
-.service-left a:hover{
-    color: rgb(255,187,35);
-    font-size: 40px;
-    transition: all 0.5s;
+.service-left a:hover {
+  color: rgb(255, 187, 35);
+  font-size: 40px;
+  transition: all 0.5s;
 }
-.service-left p:hover{
-    color: rgb(255,187,35);
-    transition: all 0.5s;
+.service-left p:hover {
+  color: rgb(255, 187, 35);
+  transition: all 0.5s;
 }
 /* 服务介绍右边 */
-.service-right{
-    position: relative;
-    width: 310px;
-    height: 672px;
-    margin-top: -401px;
-    margin-left: 756px;
+.service-right {
+  position: relative;
+  width: 310px;
+  height: 672px;
+  margin-top: -401px;
+  margin-left: 756px;
 }
-.service-right img{
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    width: 340px;
-    height: 672px;
+.service-right img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 340px;
+  height: 672px;
 }
-.service-right img:nth-child(2){
-    right: 16px;
-    top: 17px;
-    width: 306px;
-    height: 635px;
+.service-right img:nth-child(2) {
+  right: 16px;
+  top: 17px;
+  width: 306px;
+  height: 635px;
 }
 /* 优秀合作案例 */
-.teamwork{
-    background-color: rgb(255,205,87);
-    width: 100%;
-    height: 900px;
-    margin-top: -30px;
+.teamwork {
+  background-color: rgb(255, 205, 87);
+  width: 100%;
+  height: 900px;
+  margin-top: -30px;
 }
-.teamwork-title{
+.teamwork-title {
   width: 309px;
   height: 135px;
   margin-left: 345px;
 }
-.teamwork-title img{
+.teamwork-title img {
   width: 309px;
   height: 135px;
   margin-top: 95px;
+}
+.teamwork-photo {
+  width: 758px;
+  height: 420px;
+  position: absolute;
+  background-image: linear-gradient(39deg, #ff5c49 0%, #ff9f4a 100%);
+  right: 76px;
+  top: 290px;
+}
+.teamwork-left {
+  float: left;
+  width: 653px;
+  height: 305px;
+  position: relative;
+  padding: 30px 36px 45px 40px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-left: -200px;
+  margin-top: 55px;
+}
+.teamwork-left h2{
+  height: 32px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.teamwork-left h3{
+  margin-top: 15px;
+  font-size: 24px;
+  color: #000000;
+  line-height: 24px;
+}
+.teamwork-left p{
+  margin-top: 16px;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+}
+.chakan{
+  float: left;
+    width: 86px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #FFBE2E;
+    border-radius: 100px;
+    color: #FFBE2E;
+    position: absolute;
+    top: 258px;
+}
+.chakan:hover{
+  background-color: rgb(255, 205, 87);
+  color: white;
+}
+.teamwork-right{
+  position: absolute;
+  right: 0px;
+  top: 55px;
+}
+.teamwork-right img{
+  width: 305px;
 }
