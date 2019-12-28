@@ -1,0 +1,178 @@
+/* 头部 */
+header {
+  width: 980px;
+  height: auto;
+  margin: 40px auto 30px;
+}
+header img{
+    width: 82px;
+    height: 54px;
+}
+/* 中间 */
+.content {
+  width: 100%;
+  height: 370px;
+}
+/* 左边 */
+.content-left {
+  float: left;
+  width: 480px;
+  height: 370px;
+}
+/* 右边 */
+.content-right {
+  float: right;
+  width: 270px;
+  height: 270px;
+  margin-right: 100px;
+}
+/* 集合 */
+.content-right a {
+  width: 100%;
+  display: block;
+}
+.one {
+  display: block;
+  height: 26px;
+  line-height: 1;
+}
+.one span {
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+.one span:nth-child(2) {
+  float: right;
+  color: #666;
+  width: 125px;
+  font-size: 12px;
+  margin-top: -6px;
+}
+.one img {
+  width: 14px;
+  height: 14px;
+}
+.two {
+  border: 1px solid #ccc;
+  height: 36px;
+  font-size: 14px;
+  color: #666;
+}
+.two input {
+  font-size: 14px;
+  margin-top: 10px;
+  width: 180px;
+  padding-left: 5px;
+  border: none;
+}
+.three {
+  border: 1px solid #ccc;
+  height: 36px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+.three input {
+  font-size: 14px;
+  margin-top: 10px;
+  width: 180px;
+  padding-left: 5px;
+  border: none;
+}
+.four {
+  color: rgb(254, 140, 0);
+
+  margin-top: 10px;
+}
+.four span {
+  float: right;
+}
+.four span:hover{
+    color: rgb(254, 140, 0);
+}
+.five {
+  background-color: rgb(255, 192, 0);
+  height: 36px;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 40px;
+}
+.five span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 36px;
+}
+.six{
+    height: 36px;
+}
+.six span{
+    color: rgb(254, 140, 0);
+    font-size: 14px;
+    line-height: 36px;
+}
+.six span:nth-child(1){
+    color: #666;
+    margin-right: 2px;
+}
+.seven{
+    height: 36px;
+    text-align: center;
+}
+.seven span{
+    position: relative;
+    line-height: 36px;
+   font-size: 14px;
+   color: #666;
+}
+.seven span::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    left: -70px;
+    top: 7px;
+    background-color: #ccc;
+}
+.seven span::before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    right: -70px;
+    top: 7px;
+    background-color: #ccc;
+}
+.eight{
+    height: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+.eight span{
+    line-height: 36px;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 100px;
+}
+.footer-title{
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.footer-title a{
+    color: #999;
+}
+.footer-title i{
+    margin: 0 10px;
+    color: #ccc;
+   
+}
+footer p{
+    margin-top: 25px;
+    color: #999;
+}

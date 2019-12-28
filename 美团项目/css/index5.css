@@ -1,0 +1,92 @@
+/* 头部 */
+header{
+    width: 100%;
+    height: 70px;
+}
+.header-left{
+    float: left;
+    width: 142px;
+    height: 70px;
+}
+.header-left img{
+    float: left;
+    width: 142px;
+    height: 37px;
+    margin-top: 15px;
+}
+.header-right{
+    float: right;
+}
+.header-right a{
+    color: #666;
+    line-height: 70px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+/* 导航 */
+nav{
+    background-image: url("../img/minsu1.png");
+    width: 100%;
+    height: 285px;
+    background-size: cover;
+    position: relative;
+}
+/* 搜索框 */
+.nav-search{
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+    width: 769px;
+    border-radius:10px ;
+    height: 57px;
+    background-color: #fff;
+    font-size: 16px;   
+    color: #666;
+}
+.one{
+    display: inline-block;
+    width: 200px;
+    height: 57px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+.one span{
+    line-height: 57px;
+    margin-right: 5px;
+}
+.one img{
+    vertical-align: middle;
+}
+.two{
+    display: inline-block;
+    width: 426px;
+    height: 57px;
+    text-align: center;
+}
+.two span{
+    line-height: 57px;
+    margin: 0px 5px;
+}
+.two img{
+    vertical-align: middle;
+}
+.three{
+    display: inline-block;
+
+    width: 133px;
+    height: 57px;
+    
+}
+.three span{
+    display: inline-block;
+    width: 121px;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 5px;
+    background-color: rgb(255,223,56);
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
