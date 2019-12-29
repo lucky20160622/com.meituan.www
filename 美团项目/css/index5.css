@@ -1,7 +1,11 @@
+body{
+    background-color: rgb(245,246,250);
+}
 /* 头部 */
 header{
     width: 100%;
     height: 70px;
+    background-color: white;
 }
 .header-left{
     float: left;
@@ -89,4 +93,276 @@ nav{
     font-size: 18px;
     color: #333;
     font-weight: 500;
+}
+/* 热门入住 */
+.home{
+    padding-top: 40px;
+    width: 100%;
+    height: 900px;
+}
+/* 热门入住标题 */
+.home-title{
+    width: 100%;
+    height: 110px;
+}
+.home-title-one{
+    width: 100%;
+    height: 50px;
+}
+.home-title-one h3{
+    font-size: 24px;
+    line-height: 24px;
+    color: #252626;
+}
+.home-title-one img{
+    width: 20px;
+    margin-left: 5px;
+    margin-top: -20px;
+    height: 12px;
+    vertical-align: middle;
+}
+.home-title-two{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(233,235,239);
+}
+.home-title-two ul{
+    width: 100%;
+    height: 50px;
+}
+.home-title-two li{
+    float: left;
+    padding: 0 15px 12px;
+}
+.home-title-two li:hover{
+    border-bottom: 3px solid rgb(73,75,80);
+    border-radius: 2px;
+}
+.home-title-two ul li:nth-child(1){
+    padding: 0px 0px 12px;
+}
+.home-title-two p:hover{
+    color: #252626;;
+}
+.home-title-two p{
+    color: #7d7e80;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.home-title-two span{
+    font-size: 12px;
+    color: #cbcccd;
+}
+/* 内容 */
+.home-content{
+    width: 100%;
+    height: 800px;
+}
+
+
+/* 推荐民宿 */
+.homestay {
+    height: 724px;
+   
+  }
+  .homestay-box {
+    height: 724px;
+    width: 1180px;
+    margin-left: -15px;
+    
+  }
+ 
+  .homestay-img {
+    float: left;
+    width: 378px;
+    height: 322px;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding:8px 8px 12px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .homestay-img img {
+    width: 362px;
+    border-radius: 10px;
+  }
+  .homestay-img img:nth-child(2) {
+    position: relative;
+    right: 80px;
+    top: -30px;
+    width: 52px;
+    /* right: -78px; */
+    left: 296px;
+    height: 52px;
+    border: 3px solid #fff;
+    border-radius: 26px;
+  }
+  .homestay-img h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: -48px;
+    margin-bottom: 15px;
+  }
+  .homestay-img p {
+    margin: 12px 0;
+    font-size: 14px;
+    color: #8a9094;
+    white-space: pre-wrap;
+  }
+  .homestay-img span {
+    font-size: 24px;
+    color: #ff4d6a;
+  }
+.chakan{
+  width: 1150px;
+  height: 50px;
+  margin-left: 7px;
+}
+.chakan a{
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px 0;
+}
+/* 美团保障 */
+.insurance{
+    width: 100%;
+    height: 90px;
+   margin-top: 30px;
+}
+.insurance a{
+    display: inline-block;
+    width: 290px;
+    height: 88px;
+    text-align: center;
+    border-left: 1px solid #e1e6ea;
+    color: #999;
+}
+.insurance a:nth-child(1){
+    border: 0;
+}
+.insurance img{
+width: 33px;
+height: 32px;
+}
+.insurance h5{
+    color: #666;
+    line-height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 13px 0px;
+}
+.insurance p{
+    font-size: 14px;
+    color: #999;
+    line-height: 14px;
+}
+/* 热门城市 */
+.city{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+.city dl{
+height: 50px;
+line-height: 50px;
+}
+.city dt{
+float: left;
+color: #252626;
+font-size: 14px;
+font-weight: 700;
+
+}
+.city dd{
+float: left;
+color: #666;
+font-size: 14px;
+margin-left: 40px;
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 268px;
+}
+/* 上半部分 */
+.footer-top{
+    width:100% ;
+    height: 211px;
+    padding-top: 70px;
+}
+.footer-top h5{
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-top ul li a{
+    font-size: 14px;
+    color: #999;
+    float: left;
+   
+}
+.footer-top ul li {
+    font-size: 14px;
+    color: #999;
+    float: left;
+    line-height: 30px;
+}
+
+.footer-four span{
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.footer-four img{
+    width: 130px;
+    height: 130px;
+}
+.footer-one{
+    width: 72px;
+    height: 112px;
+    float: left;
+    margin-right: 200px;
+}
+.footer-two{
+    width: 72px;
+    height: 170px;
+    float: left;
+    margin-right: 200px;
+}
+.footer-three{
+    width: 185px;
+    height: 117px;
+    float: left;
+    margin-right: 200px;
+}
+.footer-three span{
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.footer-four{
+    float: left;
+}
+.footer-four span{
+    margin-top: 5px;
+}
+/* 下部分 */
+.footer-bottom{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.footer-bottom a{
+    font-size: 14px;
+    color: #999;
+    margin-right: 5px;
 }
