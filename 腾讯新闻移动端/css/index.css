@@ -4,6 +4,7 @@ html,body{
 }
 /* 头部 */
 header{
+    position: relative;
     width: 100%;
     height: 165px;
     background-color: rgb(79,133,254);
@@ -69,22 +70,26 @@ header{
     border-bottom: 2px solid rgb(98,216,255);
 }
 /* 主体部分 */
-main{
+.main{
+  
     width: 100%;
     height: 700px;
     background-color:#fff;
 }
 /* 第一部分 */
 .section-one{
-    width: 100%;
+    position: absolute;
+    top: 110px;
+    width: 90%;
+    margin-left: 18px;
     height: 95px;
-    /* padding: 12px 0px 0px 5px; */
     background-color: white;
     border-radius: 8px;
 }
 .section-one ul{
   width: 100%;
   height: 95px;
+  text-align: center;
 }
 .section-one li{
     float: left;
@@ -93,4 +98,36 @@ main{
     margin-top: 10px;
     font-size: 16px;
     color: #515761;
+}
+/* 第二部分 */
+.section-two{
+    width: 100%;
+    height: 140px;
+    margin-top: 50px;
+}
+.section-two-title{
+   width: 100%;
+   height: 140px;
+}
+.section-two-title a{
+    display: block;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.section-two-title a h3{
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(34,34,34);
+    margin-bottom: 5px;
+}
+.section-two-title a span{
+    color: rgb(238,84,74);
+}
+.section-two-title a b{
+    margin-left: 5px;
+    font-weight: normal;
+    color: rgb(130, 140, 155);
 }
