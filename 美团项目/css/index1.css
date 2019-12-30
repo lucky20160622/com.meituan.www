@@ -161,7 +161,7 @@
   float: left;
   width: 160px;
   height: 260px;
-  background-image: url("../img/two-tiger.png");
+  background-image: url("../image/two-tiger.png");
   background-size: 160px;
   background-repeat: no-repeat;
   margin-left: 22px;
@@ -173,25 +173,25 @@
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
 }
 .ishit-bottom a:nth-child(2) {
-  background-image: url("../img/brave-game.png");
+  background-image: url("../image/brave-game.png");
 }
 .ishit-bottom a:nth-child(3) {
-  background-image: url("../img/north.png");
+  background-image: url("../image/north.png");
 }
 .ishit-bottom a:nth-child(4) {
-  background-image: url("../img/knives-out.png");
+  background-image: url("../image/knives-out.png");
 }
 .ishit-bottom a:nth-child(5) {
-  background-image: url("../img/Frozen.png");
+  background-image: url("../image/Frozen.png");
 }
 .ishit-bottom a:nth-child(6) {
-  background-image: url("../img/people.png");
+  background-image: url("../image/people.png");
 }
 .ishit-bottom a:nth-child(7) {
-  background-image: url("../img/xingjitansuo.png");
+  background-image: url("../image/xingjitansuo.png");
 }
 .ishit-bottom a:nth-child(8) {
-  background-image: url("../img/life\ with\ you.png");
+  background-image: url("../image/life\ with\ you.png");
 }
 .ishit-bottom span {
   float: left;
@@ -441,7 +441,7 @@
   float: left;
   width: 160px;
   height: 260px;
-  background-image: url("../img/ruonenghenigongchenghailang.png");
+  background-image: url("../image/ruonenghenigongchenghailang.png");
   background-size: 160px;
   background-repeat: no-repeat;
   margin-left: 22px;
@@ -475,7 +475,7 @@ h5 {
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0 10px;
-  background-image: url(../img/yinying.png);
+  background-image: url(../image/yinying.png);
   background-size: 53px;
 }
 .coming-soon-bottom a h4 {
@@ -532,25 +532,25 @@ h2 {
 }
 /* 背景图重复代码 */
 .coming-soon-bottom a:nth-child(2) {
-  background-image: url("../img/lanxindajuyuan.png");
+  background-image: url("../image/lanxindajuyuan.png");
 }
 .coming-soon-bottom a:nth-child(3) {
-  background-image: url("../img/laoban.png");
+  background-image: url("../image/laoban.png");
 }
 .coming-soon-bottom a:nth-child(4) {
-  background-image: url("../img/nashifneghua.png");
+  background-image: url("../image/nashifneghua.png");
 }
 .coming-soon-bottom a:nth-child(5) {
-  background-image: url("../img/tianhuo.png");
+  background-image: url("../image/tianhuo.png");
 }
 .coming-soon-bottom a:nth-child(6) {
-  background-image: url("../img/xiheliange.png");
+  background-image: url("../image/xiheliange.png");
 }
 .coming-soon-bottom a:nth-child(7) {
-  background-image: url("../img/kake.png");
+  background-image: url("../image/kake.png");
 }
 .coming-soon-bottom a:nth-child(8) {
-  background-image: url("../img/beishiguangzhuazouderen.png");
+  background-image: url("../image/beishiguangzhuazouderen.png");
 }
 
 /* 最受期待 */
@@ -727,7 +727,7 @@ h2 {
   float: left;
   width: 160px;
   height: 220px;
-  background-image: url("../img/tangrenjie.png");
+  background-image: url("../image/tangrenjie.png");
   margin-left: 26px;
   margin-bottom: 30px;
 }
@@ -739,7 +739,7 @@ h2 {
   float: left;
   width: 350px;
   height: 220px;
-  background-image: url("../img/tangrenjie.png");
+  background-image: url("../image/tangrenjie.png");
 }
 .now-movie-content-bottom a span {
   position: absolute;
@@ -763,22 +763,22 @@ h2 {
 }
 /*重复代码 */
 .now-movie-content-bottom a:nth-child(2) {
-  background-image: url("../img/ligui.png");
+  background-image: url("../image/ligui.png");
 }
 .now-movie-content-bottom a:nth-child(3) {
-  background-image: url("../img/xiyouji.png");
+  background-image: url("../image/xiyouji.png");
 }
 .now-movie-content-bottom a:nth-child(4) {
-  background-image: url("../img/zhanlang.png");
+  background-image: url("../image/zhanlang.png");
 }
 .now-movie-content-bottom a:nth-child(5) {
-  background-image: url("../img/xialuo.png");
+  background-image: url("../image/xialuo.png");
 }
 .now-movie-content-bottom a:nth-child(6) {
-  background-image: url("../img/bairiliehuo.png");
+  background-image: url("../image/bairiliehuo.png");
 }
 .now-movie-content-bottom a:nth-child(7) {
-  background-image: url("../img/jinqiandiguo.png");
+  background-image: url("../image/jinqiandiguo.png");
 }
 
 /* TOP100 */

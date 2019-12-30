@@ -432,7 +432,7 @@ transition: 0.5s;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/two-tiger.png");
+  background-image: url("../image/two-tiger.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -475,7 +475,7 @@ transition: 0.5s;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/Frozen.png");
+  background-image: url("../image/Frozen.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -520,7 +520,7 @@ transition: 0.5s;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/knives-out.png");
+  background-image: url("../image/knives-out.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -563,7 +563,7 @@ transition: 0.5s;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/brave-game.png");
+  background-image: url("../image/brave-game.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }
@@ -609,7 +609,7 @@ transition: 0.5s;
   float: left;
   margin-top: 20px;
   margin-left: 20px;
-  background-image: url("../img/life\ with\ you.png");
+  background-image: url("../image/life\ with\ you.png");
   background-size: 210px;
   background-repeat: no-repeat;
 }

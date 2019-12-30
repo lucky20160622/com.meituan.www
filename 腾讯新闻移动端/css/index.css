@@ -1,0 +1,96 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 165px;
+    background-color: rgb(79,133,254);
+}
+/* 头部标题 */
+.header-title{
+    width: 100%;
+    height: 50px;
+ 
+}
+/* 头部标题左边 */
+.header-title-left{
+    float: left;
+   width: 99px;
+   height: 29px;
+   margin-top: 15px;
+   margin-left: 15px;
+} 
+.header-title-left img{
+    float: left;
+    width: 99px;
+    height: 29px;
+}
+/* 头部标题右边 */
+.header-title-right{
+    float: right;
+    margin-top: 15px;
+    margin-right: 12px;
+    
+}
+.header-title-right a{
+    display: inline-block;
+    width: 27px;
+    height: 25px;
+    margin-right: 3px;
+}
+.header-title-right img{
+    width: 27px;
+    height: 25px;
+}
+/* 内容 */
+.header-content{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+}
+.header-content ul{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+}
+.header-content li{
+    float: left;
+    width: 33.33%;
+    height: 37px;
+}
+.header-content a{
+   font-size: 18px; 
+   color: rgb(255, 255, 255);
+}
+.header-content a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(98,216,255);
+}
+/* 主体部分 */
+main{
+    width: 100%;
+    height: 700px;
+    background-color:#fff;
+}
+/* 第一部分 */
+.section-one{
+    width: 100%;
+    height: 95px;
+    /* padding: 12px 0px 0px 5px; */
+    background-color: white;
+    border-radius: 8px;
+}
+.section-one ul{
+  width: 100%;
+  height: 95px;
+}
+.section-one li{
+    float: left;
+    width: 56px;
+    height: 17px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #515761;
+}
