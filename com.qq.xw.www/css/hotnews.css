@@ -265,7 +265,7 @@ header {
   .section-six-title {
     display: block;
     width: 100%;
-    height: calc(135rem / 16);
+    /* height: calc(135rem / 16); */
     padding-left: calc(10rem / 16);
     padding-right: calc(10rem / 16);
     box-sizing: border-box;
