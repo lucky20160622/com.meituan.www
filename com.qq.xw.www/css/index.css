@@ -129,7 +129,7 @@ header {
 /* 第二部分 */
 .section-two {
   width: 100%;
-  height: calc(140rem / 16);
+  height: calc(120rem / 16);
   margin-top: calc(45rem / 16);
 }
 .section-two-title {
@@ -139,14 +139,14 @@ header {
 .section-two-title a {
   display: block;
   width: 100%;
-  height: calc(70rem / 16);
+  height: calc(60rem / 16);
   border-bottom: 1px solid rgb(245, 245, 245);
   padding: calc(16rem / 16);
   box-sizing: border-box;
 }
 .section-two-title a h3 {
   font-weight: normal;
-  font-size: calc(16rem / 16);
+  font-size: calc(14rem / 16);
   color: rgb(34, 34, 34);
   margin-bottom: calc(5rem / 16);
 }
