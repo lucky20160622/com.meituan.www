@@ -51,8 +51,8 @@ header {
 }
 .header-title-left img {
   float: left;
-  width: calc(82rem / 16);
-  height: calc(26rem / 16);
+  width: calc(80rem / 16);
+  height: calc(23rem / 16);
 }
 /* 头部标题右边 */
 .header-title-right {
@@ -63,12 +63,12 @@ header {
 .header-title-right a {
   display: inline-block;
   width: calc(27rem / 16);
-  height: calc(25rem / 16);
+  height: calc(23rem / 16);
   margin-right: 3px;
 }
 .header-title-right img {
   width: calc(27rem / 16);
-  height: calc(25rem / 16);
+  height: calc(23rem / 16);
 }
 /* 内容 */
 .header-content {
@@ -78,8 +78,8 @@ header {
 }
 .header-content ul {
   width: 100%;
-  height: calc(44rem / 16);
-  line-height: calc(44rem / 16);
+  height: calc(37rem / 16);
+  line-height: calc(30rem / 16);
 }
 .header-content li {
   float: left;
@@ -87,7 +87,7 @@ header {
   height: calc(37rem / 16);
 }
 .header-content a {
-  font-size: calc(16rem / 16);
+  font-size: calc(18rem / 16);
   color: rgb(255, 255, 255);
 }
 .header-content ul li:first-child a{
@@ -122,8 +122,8 @@ header {
 .section-one li {
   float: left;
   width: 16.66%;
-  line-height: calc(25rem / 16);
-  font-size: calc(12rem / 16);
+  line-height: calc(26rem / 16);
+  font-size: calc(14rem / 16);
   color: #515761;
 }
 /* 第二部分 */

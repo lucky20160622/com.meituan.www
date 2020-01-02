@@ -25,6 +25,7 @@ body {
 }
 /* 头部 */
 header {
+  position: fixed;
   position: relative;
   width: 100%;
   height: calc(128rem / 16);
@@ -53,7 +54,6 @@ header {
   width: calc(80rem / 16);
   height: calc(23rem / 16);
 }
-
 /* 头部标题右边 */
 .header-title-right {
   float: right;
@@ -87,7 +87,7 @@ header {
   height: calc(37rem / 16);
 }
 .header-content a {
-  font-size: calc(16rem / 16);
+  font-size: calc(18rem / 16);
   color: rgb(255, 255, 255);
 }
 .header-content ul li:nth-child(2) a {
@@ -150,8 +150,8 @@ header {
   margin-top: calc(10rem / 16);
 }
 .section-two h3 {
-  font-size: calc(14rem / 16);
-  color: rgb(34, 34, 34);
+  font-size: calc(16rem / 16);
+  color: #222222;
   font-weight: normal;
 }
 .section-two ul {

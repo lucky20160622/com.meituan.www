@@ -1,0 +1,115 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: calc(320px / 20);
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: calc(375px / 20);
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: calc(414px / 20);
+  }
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+/* 头部 */
+header {
+  position: fixed;
+  position: relative;
+  width: 100%;
+  height: calc(128rem / 16);
+  background: linear-gradient(
+      176deg,
+      rgb(76, 126, 255) 0%,
+      rgb(100, 174, 252) 100%
+    )
+    0% 0% / 100%;
+}
+/* 头部标题 */
+.header-title {
+  width: 100%;
+  height: calc(50rem / 16);
+}
+/* 头部标题左边 */
+.header-title-left {
+  float: left;
+  width: calc(82rem / 16);
+  height: calc(26rem / 16);
+  margin-top: calc(15rem / 16);
+  margin-left: calc(15rem / 16);
+}
+.header-title-left img {
+  float: left;
+  width: calc(80rem / 16);
+  height: calc(23rem / 16);
+}
+/* 头部标题右边 */
+.header-title-right {
+  float: right;
+  margin-top: calc(15rem / 16);
+  margin-right: calc(12rem / 16);
+}
+.header-title-right a {
+  display: inline-block;
+  width: calc(27rem / 16);
+  height: calc(23rem / 16);
+  margin-right: 3px;
+}
+.header-title-right img {
+  width: calc(27rem / 16);
+  height: calc(23rem / 16);
+}
+/* 内容 */
+.header-content {
+  width: 100%;
+  height: calc(44rem / 16);
+  text-align: center;
+}
+.header-content ul {
+  width: 100%;
+  height: calc(38rem / 16);
+  line-height: calc(30rem / 16);
+}
+.header-content li {
+  float: left;
+  width: 33.33%;
+  height: calc(37rem / 16);
+}
+.header-content a {
+  font-size: calc(18rem / 16);
+  color: rgb(255, 255, 255);
+}
+.header-content ul li:nth-child(3) a {
+  padding-bottom: calc(5rem / 16);
+  border-bottom: 2px solid rgb(98, 216, 255);
+}
+/* 主体部分 */
+.main {
+  position: absolute;
+  top: calc(90rem / 16);
+  width: 100%;
+  height: 100%;
+  border-radius: calc(10rem / 16);
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-left: calc(2rem / 16);
+  padding-right: calc(2rem / 16);
+}
+/* 第一部分 */
+.section-one {
+  width: 100%;
+  height: calc(26rem / 16);
+  margin-top: calc(25rem / 16);
+  margin-bottom: calc(10rem / 16);
+}
