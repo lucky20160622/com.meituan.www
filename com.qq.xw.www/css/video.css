@@ -148,14 +148,16 @@ header {
 }
 .section-one span {
   display: block;
-  margin-left: calc(225rem / 16);
+  margin-left: calc(185rem / 16);
   margin-top: calc(34rem / 16);
-  width: calc(108rem / 16);
+  width: calc(100rem / 16);
   height: calc(17rem / 16);
   line-height: calc(17rem / 16);
   font-size: calc(12rem / 16);
   color: rgb(255, 255, 255);
   background: rgba(0, 0, 0, 0.3);
+  padding-left: calc(7rem / 16);
+  box-sizing: border-box;
   border-radius: calc(10rem / 16);
 }
 .section-one span img {
@@ -238,9 +240,9 @@ header {
 }
 .section-first span {
   display: block;
-  margin-left: calc(225rem / 16);
+  margin-left: calc(185rem / 16);
   margin-top: calc(34rem / 16);
-  width: calc(106rem / 16);
+  width: calc(100rem / 16);
   height: calc(17rem / 16);
   line-height: calc(17rem / 16);
   font-size: calc(12rem / 16);
@@ -331,9 +333,9 @@ header {
 }
 .section-three span {
   display: block;
-  margin-left: calc(225rem / 16);
+  margin-left: calc(185rem / 16);
   margin-top: calc(34rem / 16);
-  width: calc(106rem / 16);
+  width: calc(100rem / 16);
   height: calc(17rem / 16);
   line-height: calc(17rem / 16);
   font-size: calc(12rem / 16);
@@ -424,9 +426,9 @@ header {
 }
 .section-four span {
   display: block;
-  margin-left: calc(225rem / 16);
+  margin-left: calc(185rem / 16);
   margin-top: calc(34rem / 16);
-  width: calc(106rem / 16);
+  width: calc(100rem / 16);
   height: calc(17rem / 16);
   line-height: calc(17rem / 16);
   font-size: calc(12rem / 16);
@@ -551,9 +553,9 @@ header {
 }
 .section-six span {
   display: block;
-  margin-left: calc(225rem / 16);
+  margin-left: calc(185rem / 16);
   margin-top: calc(34rem / 16);
-  width: calc(106rem / 16);
+  width: calc(100rem / 16);
   height: calc(17rem / 16);
   line-height: calc(17rem / 16);
   font-size: calc(12rem / 16);
